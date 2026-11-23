@@ -19,7 +19,19 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: 'track — AI Transaction Calculator · Audited by Kane CLI',
   description:
-    'Upload monthly transaction files and get exact certified totals in seconds — autonomously audited by Kane CLI.',
+    'Upload your ledger. If an agent slips on Pending, Reversed, or duplicate rows, Kane CLI catches the bug and fixes it before you ever see the final number.',
+  openGraph: {
+    title: 'track — Agents make mistakes. Kane CLI catches & fixes them.',
+    description:
+      'Upload your CSV or Excel ledger for certified totals — autonomously audited by Kane CLI with a full Audit Evidence Vault and live FX conversion.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'track — Agents make mistakes. Kane CLI catches & fixes them.',
+    description:
+      'Upload your CSV or Excel ledger for certified totals — autonomously audited by Kane CLI.',
+  },
 };
 
 export default function RootLayout({
