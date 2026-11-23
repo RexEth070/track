@@ -1,0 +1,18 @@
+export const SAMPLE_TRANSACTION_CSV = `Transaction Date,Transaction ID,Description,Category,Amount,Status
+2026-11-01,TXN-5001,Monthly SaaS Retainer A,Revenue,"1,000.00",Completed
+2026-11-02,TXN-5002,Enterprise License Batch 1,Revenue,"10,000.00",Completed
+2026-11-03,TXN-5003,Wire Transfer (Unsettled),Revenue,"4,500.00",Pending
+2026-11-04,TXN-5004,Monthly SaaS Retainer B,Revenue,"1,000.00",Completed
+2026-11-05,TXN-5005,Duplicate Chargeback,Revenue,"5,000.00",Reversed
+2026-11-06,TXN-5006,Enterprise License Batch 2,Revenue,"10,000.00",Completed
+2026-11-07,TXN-5007,Corrupted Bank Export Row,Revenue,"N/A",Completed
+2026-11-08,TXN-5008,Monthly SaaS Retainer C,Revenue,"1,000.00",Completed
+2026-11-09,TXN-5009,ACH Settlement In Flight,Revenue,"2,500.00",Pending
+2026-11-10,TXN-5010,Enterprise License Batch 3,Revenue,"10,000.00",Completed
+2026-11-11,TXN-5011,Monthly SaaS Retainer D,Revenue,"1,000.00",Completed
+`;
+
+export function createSampleCsvFile(): File {
+  const blob = new Blob([SAMPLE_TRANSACTION_CSV], { type: 'text/csv;charset=utf-8;' });
+  return new File([blob], 'kane_full_audit_test.csv', { type: 'text/csv' });
+}

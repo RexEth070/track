@@ -1,69 +1,291 @@
-import Image from "next/image";
+'use client';
+
+import React, { useState, useEffect, useMemo } from 'react';
+import { Header } from '@/components/Header';
+import { LandingPage } from '@/components/LandingPage';
+import { ProcessingScreen } from '@/components/ProcessingScreen';
+import { ResultsScreen } from '@/components/ResultsScreen';
+import { AuditEvidencePage } from '@/components/AuditEvidencePage';
+import { ColumnPickerModal } from '@/components/ColumnPickerModal';
+import {
+  AnalysisResult,
+  ColumnDetectionResult,
+  CurrencyCode,
+  ProcessingStep,
+  RawRow,
+} from '@/types';
+import {
+  parseCsvFile,
+  parseExcelFile,
+  detectColumns,
+  calculateTransactions,
+} from '@/lib/parser';
+import { generateExecutiveSummary } from '@/lib/ai-query-engine';
+import {
+  DEFAULT_EXCHANGE_RATES,
+  ExchangeRates,
+  convertAnalysisResult,
+  getExchangeRate,
+} from '@/lib/currency';
 
 export default function Home() {
+  const [currency, setCurrency] = useState<CurrencyCode>('USD');
+  const [exchangeRates, setExchangeRates] = useState<ExchangeRates>(DEFAULT_EXCHANGE_RATES);
+  const [rateSource, setRateSource] = useState<'live' | 'fallback'>('fallback');
+  const [processingStep, setProcessingStep] = useState<ProcessingStep>('idle');
+  const [activeFile, setActiveFile] = useState<File | null>(null);
+
+  // Parsing intermediate state
+  const [rawRows, setRawRows] = useState<RawRow[]>([]);
+  const [rawHeaders, setRawHeaders] = useState<string[]>([]);
+  const [columnDetection, setColumnDetection] = useState<ColumnDetectionResult | null>(null);
+
+  // Final calculated result (stored immutably in its original baseCurrency)
+  const [analysisResult, setAnalysisResult] = useState<AnalysisResult | null>(null);
+  const [showEvidencePage, setShowEvidencePage] = useState(false);
+
+  // Fetch live market exchange rates on mount
+  useEffect(() => {
+    let active = true;
+    fetch('/api/exchange-rates')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((json) => {
+        if (active && json?.rates) {
+          setExchangeRates(json.rates);
+          if (json.source === 'live' || json.source === 'fallback') {
+            setRateSource(json.source);
+          }
+        }
+      })
+      .catch(() => {
+        // Silently retain fallback rates
+      });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  // Derive currency-converted view cleanly without mutating raw base numbers
+  const displayedResult = useMemo(() => {
+    if (!analysisResult) return null;
+    return convertAnalysisResult(analysisResult, currency, exchangeRates);
+  }, [analysisResult, currency, exchangeRates]);
+
+  const activeExchangeRate = useMemo(() => {
+    if (!analysisResult) return 1;
+    return getExchangeRate(analysisResult.baseCurrency, currency, exchangeRates);
+  }, [analysisResult, currency, exchangeRates]);
+
+  const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+  const handleFileSelected = async (file: File) => {
+    try {
+      setActiveFile(file);
+      setAnalysisResult(null);
+
+      // Step 1: Reading file
+      setProcessingStep('reading');
+      await delay(400);
+
+      const isCsv = file.name.toLowerCase().endsWith('.csv');
+      const { rows, headers } = isCsv ? await parseCsvFile(file) : await parseExcelFile(file);
+
+      setRawRows(rows);
+      setRawHeaders(headers);
+
+      // Step 2: Checking transactions & detecting columns
+      setProcessingStep('checking');
+      await delay(450);
+
+      const detection = detectColumns(headers, rows);
+      setColumnDetection(detection);
+
+      // Auto-switch currency if detected in file
+      if (detection.detectedCurrency) {
+        setCurrency(detection.detectedCurrency);
+      }
+
+      // Check for ambiguity
+      if (detection.isAmbiguous || !detection.amountColumn) {
+        setProcessingStep('ambiguous');
+        return;
+      }
+
+      // Proceed with unambiguous calculation
+      await performCalculation(
+        file,
+        rows,
+        headers,
+        detection.amountColumn,
+        detection.detectedCurrency || currency,
+        detection.dateColumn || undefined,
+        detection.descriptionColumn || undefined,
+        detection.statusColumn || undefined
+      );
+    } catch (err: unknown) {
+      console.error(err);
+      alert(err instanceof Error ? err.message : 'Error reading file');
+      setProcessingStep('idle');
+      setActiveFile(null);
+    }
+  };
+
+  const performCalculation = async (
+    file: File,
+    rows: RawRow[],
+    headers: string[],
+    amountCol: string,
+    curr: CurrencyCode,
+    dateCol?: string,
+    descCol?: string,
+    statusCol?: string
+  ) => {
+    try {
+      // Step 3: Calculating total
+      setProcessingStep('calculating');
+      await delay(400);
+
+      const result = calculateTransactions(
+        rows,
+        headers,
+        amountCol,
+        file.name,
+        file.size,
+        file.name.split('.').pop() || '',
+        curr,
+        dateCol,
+        descCol,
+        statusCol
+      );
+
+      // Step 4: Preparing results & generating AI summary
+      setProcessingStep('preparing');
+
+      let summaryText = generateExecutiveSummary(result, curr);
+      try {
+        const aiRes = await fetch('/api/ai/summary', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ data: result, currency: curr }),
+        });
+        if (aiRes.ok) {
+          const aiJson = await aiRes.json();
+          if (aiJson.summary) {
+            summaryText = aiJson.summary;
+          }
+        }
+      } catch (e) {
+        console.warn('AI summary API call skipped/fallback:', e);
+      }
+
+      result.aiSummary = summaryText;
+
+      await delay(300);
+      setAnalysisResult(result);
+      setProcessingStep('ready');
+    } catch (err) {
+      console.error(err);
+      alert('Error during calculation. Please check file columns.');
+      setProcessingStep('idle');
+    }
+  };
+
+  const handleConfirmColumns = async (
+    amountCol: string,
+    dateCol?: string,
+    descCol?: string
+  ) => {
+    if (!activeFile) return;
+    await performCalculation(
+      activeFile,
+      rawRows,
+      rawHeaders,
+      amountCol,
+      currency,
+      dateCol,
+      descCol
+    );
+  };
+
+  const handleReset = () => {
+    setActiveFile(null);
+    setAnalysisResult(null);
+    setShowEvidencePage(false);
+    setRawRows([]);
+    setRawHeaders([]);
+    setColumnDetection(null);
+    setProcessingStep('idle');
+  };
+
+  const handleCurrencyChange = (newCurrency: CurrencyCode) => {
+    setCurrency(newCurrency);
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+    <div className="min-h-screen flex flex-col bg-[#F9F5ED]">
+      <Header
+        currentCurrency={currency}
+        onCurrencyChange={handleCurrencyChange}
+        hasActiveFile={!!analysisResult}
+        onReset={handleReset}
+      />
+
+      <main className="flex-1 flex flex-col justify-center">
+        {/* Main Screen: Landing Page & Upload Engine */}
+        {processingStep === 'idle' && (
+          <LandingPage onFileSelected={handleFileSelected} />
+        )}
+
+        {/* Processing Screen */}
+        {(processingStep === 'reading' ||
+          processingStep === 'checking' ||
+          processingStep === 'calculating' ||
+          processingStep === 'preparing') && (
+          <ProcessingScreen
+            currentStep={processingStep}
+            fileName={activeFile?.name || 'Uploaded File'}
+          />
+        )}
+
+        {/* Column Resolution Modal (if Ambiguous) */}
+        {processingStep === 'ambiguous' && columnDetection && (
+          <ColumnPickerModal
+            detection={columnDetection}
+            sampleRows={rawRows}
+            onConfirm={handleConfirmColumns}
+            onCancel={handleReset}
+          />
+        )}
+
+        {/* Results Screen or Dedicated Audit Evidence Page */}
+        {processingStep === 'ready' && displayedResult && (
+          showEvidencePage ? (
+            <AuditEvidencePage
+              data={displayedResult}
+              currency={currency}
+              onBack={() => setShowEvidencePage(false)}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+          ) : (
+            <ResultsScreen
+              data={displayedResult}
+              currency={currency}
+              exchangeRate={activeExchangeRate}
+              rateSource={rateSource}
+              onCurrencyChange={handleCurrencyChange}
+              onUploadAnother={handleReset}
+              onViewEvidence={() => setShowEvidencePage(true)}
+            />
+          )
+        )}
       </main>
+
+      {/* Footer */}
+      <footer className="w-full border-t border-[#D7D0C3] py-7 text-sm text-[#545B66] bg-[#F9F5ED]">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span className="font-display font-bold text-[#11161F]">track</span>
+          <span>Programmatically verified · Audited by Kane CLI</span>
+        </div>
+      </footer>
     </div>
   );
 }

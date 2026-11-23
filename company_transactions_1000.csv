@@ -1,0 +1,1001 @@
+Transaction Date,Transaction ID,Description,Category,Amount,Status
+2026-01-01,TXN-10001,"Global Logistics Wire Payout",Revenue,"77,551.63",Completed
+2026-01-01,TXN-10002,"Stripe Merchant Settlement",Revenue,"25,814.51",Completed
+2026-01-01,TXN-10003,"Apex Advisory Consulting Fee",Revenue,"18,524.07",Completed
+2026-01-02,TXN-10004,"SaaS Subscription Revenue",Revenue,"9,216.02",Completed
+2026-01-02,TXN-10005,"AWS Cloud Infrastructure",Hosting,"-4,504.81",Completed
+2026-01-02,TXN-10006,"Google Workspace & Cloud",Software,"-566.22",Completed
+2026-01-03,TXN-10007,"Slack & Figma Tooling",Software,"-1,798.15",Completed
+2026-01-03,TXN-10008,"WeWork Office Space Rent",Facilities,"-5,672.20",Completed
+2026-01-03,TXN-10009,"Staff Payroll Disbursement",Payroll,"-33,941.97",Completed
+2026-01-03,TXN-10010,"Digital Advertising - Meta & Google",Marketing,"-11,866.91",Completed
+2026-01-04,TXN-10011,"Client Overpayment Refund",Refund,"-1,003.46",Refunded
+2026-01-04,TXN-10012,"Travel & Business Meals",Operations,"-713.23",Completed
+2026-01-04,TXN-10013,"Legal & Regulatory Retainer",Legal,"-7,148.39",Completed
+2026-01-05,TXN-10014,"Hardware & Laptop Procurement",Equipment,"-1,516.84",Completed
+2026-01-05,TXN-10015,"Acme Corp Enterprise Retainer",Revenue,"39,062.72",Completed
+2026-01-05,TXN-10016,"Global Logistics Wire Payout",Revenue,"73,721.27",Completed
+2026-01-05,TXN-10017,"Stripe Merchant Settlement",Revenue,"5,669.07",Completed
+2026-01-06,TXN-10018,"Apex Advisory Consulting Fee",Revenue,"56,882.35",Completed
+2026-01-06,TXN-10019,"SaaS Subscription Revenue",Revenue,"6,979.37",Completed
+2026-01-06,TXN-10020,"AWS Cloud Infrastructure",Hosting,"-2,546.58",Completed
+2026-01-07,TXN-10021,"Google Workspace & Cloud",Software,"-1,189.10",Completed
+2026-01-07,TXN-10022,"Slack & Figma Tooling",Software,"-1,103.31",Completed
+2026-01-07,TXN-10023,"WeWork Office Space Rent",Facilities,"-5,717.27",Completed
+2026-01-07,TXN-10024,"Staff Payroll Disbursement",Payroll,"-47,941.50",Completed
+2026-01-08,TXN-10025,"Digital Advertising - Meta & Google",Marketing,"-5,244.19",Completed
+2026-01-08,TXN-10026,"Client Overpayment Refund",Refund,"(1,929.54)",Refunded
+2026-01-08,TXN-10027,"Travel & Business Meals",Operations,"-920.01",Completed
+2026-01-09,TXN-10028,"Legal & Regulatory Retainer",Legal,"-3,051.25",Completed
+2026-01-09,TXN-10029,"Hardware & Laptop Procurement",Equipment,"-3,831.09",Completed
+2026-01-09,TXN-10030,"Acme Corp Enterprise Retainer",Revenue,"40,714.37",Completed
+2026-01-10,TXN-10031,"Global Logistics Wire Payout",Revenue,"12,837.58",Completed
+2026-01-10,TXN-10032,"Stripe Merchant Settlement",Revenue,"29,137.25",Completed
+2026-01-10,TXN-10033,"Apex Advisory Consulting Fee",Revenue,"48,728.51",Completed
+2026-01-10,TXN-10034,"SaaS Subscription Revenue",Revenue,"2,422.48",Completed
+2026-01-11,TXN-10035,"AWS Cloud Infrastructure",Hosting,"-6,336.08",Completed
+2026-01-11,TXN-10036,"Google Workspace & Cloud",Software,"-823.27",Completed
+2026-01-11,TXN-10037,"Slack & Figma Tooling",Software,"-851.05",Completed
+2026-01-12,TXN-10038,"WeWork Office Space Rent",Facilities,"-7,996.99",Completed
+2026-01-12,TXN-10039,"Staff Payroll Disbursement",Payroll,"-30,596.81",Completed
+2026-01-12,TXN-10040,"Digital Advertising - Meta & Google",Marketing,"-7,416.92",Completed
+2026-01-12,TXN-10041,"Client Overpayment Refund",Refund,"-2,764.44",Refunded
+2026-01-13,TXN-10042,"Travel & Business Meals",Operations,"-327.51",Completed
+2026-01-13,TXN-10043,"Legal & Regulatory Retainer",Legal,"-6,046.16",Completed
+2026-01-13,TXN-10044,"Hardware & Laptop Procurement",Equipment,"-4,275.51",Completed
+2026-01-14,TXN-10045,"Acme Corp Enterprise Retainer",Revenue,"8,383.39",Completed
+2026-01-14,TXN-10046,"Global Logistics Wire Payout",Revenue,"74,599.46",Completed
+2026-01-14,TXN-10047,"Stripe Merchant Settlement",Revenue,"27,259.78",Completed
+2026-01-14,TXN-10048,"Apex Advisory Consulting Fee",Revenue,"14,178.97",Completed
+2026-01-15,TXN-10049,"SaaS Subscription Revenue",Revenue,"8,995.07",Completed
+2026-01-15,TXN-10050,"AWS Cloud Infrastructure",Hosting,"-4,857.94",Completed
+2026-01-15,TXN-10051,"Google Workspace & Cloud",Software,"-483.19",Completed
+2026-01-16,TXN-10052,"Slack & Figma Tooling",Software,"-1,785.92",Completed
+2026-01-16,TXN-10053,"WeWork Office Space Rent",Facilities,"-5,997.76",Completed
+2026-01-16,TXN-10054,"Staff Payroll Disbursement",Payroll,"-31,588.42",Completed
+2026-01-17,TXN-10055,"Digital Advertising - Meta & Google",Marketing,"-11,972.26",Completed
+2026-01-17,TXN-10056,"Client Overpayment Refund",Refund,"(1,206.82)",Refunded
+2026-01-17,TXN-10057,"Travel & Business Meals",Operations,"-660.49",Completed
+2026-01-17,TXN-10058,"Legal & Regulatory Retainer",Legal,"-7,293.60",Completed
+2026-01-18,TXN-10059,"Hardware & Laptop Procurement",Equipment,"-1,793.54",Completed
+2026-01-18,TXN-10060,"Acme Corp Enterprise Retainer",Revenue,"37,166.92",Completed
+2026-01-18,TXN-10061,"Global Logistics Wire Payout",Revenue,"76,797.24",Completed
+2026-01-19,TXN-10062,"Stripe Merchant Settlement",Revenue,"3,176.91",Completed
+2026-01-19,TXN-10063,"Apex Advisory Consulting Fee",Revenue,"55,207.09",Completed
+2026-01-19,TXN-10064,"SaaS Subscription Revenue",Revenue,"7,484.50",Completed
+2026-01-19,TXN-10065,"AWS Cloud Infrastructure",Hosting,"-2,081.38",Completed
+2026-01-20,TXN-10066,"Google Workspace & Cloud",Software,"-1,172.61",Completed
+2026-01-20,TXN-10067,"Slack & Figma Tooling",Software,"-1,211.77",Completed
+2026-01-20,TXN-10068,"WeWork Office Space Rent",Facilities,"-5,378.11",Completed
+2026-01-21,TXN-10069,"Staff Payroll Disbursement",Payroll,"-47,989.58",Completed
+2026-01-21,TXN-10070,"Digital Advertising - Meta & Google",Marketing,"-6,087.37",Completed
+2026-01-21,TXN-10071,"Client Overpayment Refund",Refund,"-1,761.23",Refunded
+2026-01-21,TXN-10072,"Travel & Business Meals",Operations,"-936.15",Completed
+2026-01-22,TXN-10073,"Legal & Regulatory Retainer",Legal,"-3,504.12",Completed
+2026-01-22,TXN-10074,"Hardware & Laptop Procurement",Equipment,"-3,653.18",Completed
+2026-01-22,TXN-10075,"Acme Corp Enterprise Retainer",Revenue,"42,110.04",Completed
+2026-01-23,TXN-10076,"Global Logistics Wire Payout",Revenue,"17,339.70",Completed
+2026-01-23,TXN-10077,"Stripe Merchant Settlement",Revenue,"27,969.50",Completed
+2026-01-23,TXN-10078,"Apex Advisory Consulting Fee",Revenue,"51,317.12",Completed
+2026-01-24,TXN-10079,"SaaS Subscription Revenue",Revenue,"1,671.90",Completed
+2026-01-24,TXN-10080,"AWS Cloud Infrastructure",Hosting,"-6,201.45",Completed
+2026-01-24,TXN-10081,"Google Workspace & Cloud",Software,"-889.01",Completed
+2026-01-24,TXN-10082,"Slack & Figma Tooling",Software,"-725.09",Completed
+2026-01-25,TXN-10083,"WeWork Office Space Rent",Facilities,"-7,966.94",Completed
+2026-01-25,TXN-10084,"Staff Payroll Disbursement",Payroll,"-33,000.78",Completed
+2026-01-25,TXN-10085,"Digital Advertising - Meta & Google",Marketing,"-6,638.22",Completed
+2026-01-26,TXN-10086,"Client Overpayment Refund",Refund,"(2,791.33)",Refunded
+2026-01-26,TXN-10087,"Travel & Business Meals",Operations,"-397.17",Completed
+2026-01-26,TXN-10088,"Legal & Regulatory Retainer",Legal,"-5,716.55",Completed
+2026-01-26,TXN-10089,"Hardware & Laptop Procurement",Equipment,"-4,365.68",Completed
+2026-01-27,TXN-10090,"Acme Corp Enterprise Retainer",Revenue,"11,742.53",Completed
+2026-01-27,TXN-10091,"Global Logistics Wire Payout",Revenue,"71,198.63",Completed
+2026-01-27,TXN-10092,"Stripe Merchant Settlement",Revenue,"28,527.58",Completed
+2026-01-28,TXN-10093,"Apex Advisory Consulting Fee",Revenue,"9,789.59",Completed
+2026-01-28,TXN-10094,"SaaS Subscription Revenue",Revenue,"8,713.22",Completed
+2026-01-28,TXN-10095,"AWS Cloud Infrastructure",Hosting,"-5,181.98",Completed
+2026-01-28,TXN-10096,"Google Workspace & Cloud",Software,"-397.77",Completed
+2026-01-29,TXN-10097,"Slack & Figma Tooling",Software,"-1,762.32",Completed
+2026-01-29,TXN-10098,"WeWork Office Space Rent",Facilities,"-6,305.43",Completed
+2026-01-29,TXN-10099,"Staff Payroll Disbursement",Payroll,"-29,115.97",Completed
+2026-01-30,TXN-10100,"Digital Advertising - Meta & Google",Marketing,"-11,998.97",Completed
+2026-01-30,TXN-10101,"Client Overpayment Refund",Refund,"-1,403.33",Refunded
+2026-01-30,TXN-10102,"Travel & Business Meals",Operations,"-603.60",Completed
+2026-01-31,TXN-10103,"Legal & Regulatory Retainer",Legal,"-7,400.88",Completed
+2026-01-31,TXN-10104,"Hardware & Laptop Procurement",Equipment,"-2,065.99",Completed
+2026-01-31,TXN-10105,"Acme Corp Enterprise Retainer",Revenue,"35,040.58",Completed
+2026-01-31,TXN-10106,"Global Logistics Wire Payout",Revenue,"79,408.78",Completed
+2026-02-01,TXN-10107,"Stripe Merchant Settlement",Revenue,"4,320.11",Completed
+2026-02-01,TXN-10108,"Apex Advisory Consulting Fee",Revenue,"53,193.48",Completed
+2026-02-01,TXN-10109,"SaaS Subscription Revenue",Revenue,"7,939.57",Completed
+2026-02-02,TXN-10110,"AWS Cloud Infrastructure",Hosting,"-1,607.00",Completed
+2026-02-02,TXN-10111,"Google Workspace & Cloud",Software,"-1,148.79",Completed
+2026-02-02,TXN-10112,"Slack & Figma Tooling",Software,"-1,312.99",Completed
+2026-02-02,TXN-10113,"WeWork Office Space Rent",Facilities,"-5,025.48",Completed
+2026-02-03,TXN-10114,"Staff Payroll Disbursement",Payroll,"-47,801.21",Completed
+2026-02-03,TXN-10115,"Digital Advertising - Meta & Google",Marketing,"-6,894.08",Completed
+2026-02-03,TXN-10116,"Client Overpayment Refund",Refund,"(1,582.08)",Refunded
+2026-02-04,TXN-10117,"Travel & Business Meals",Operations,"-946.16",Completed
+2026-02-04,TXN-10118,"Legal & Regulatory Retainer",Legal,"-3,946.21",Completed
+2026-02-04,TXN-10119,"Hardware & Laptop Procurement",Equipment,"-3,457.69",Completed
+2026-02-04,TXN-10120,"Acme Corp Enterprise Retainer",Revenue,"43,239.73",Completed
+2026-02-05,TXN-10121,"Global Logistics Wire Payout",Revenue,"23,478.71",Completed
+2026-02-05,TXN-10122,"Stripe Merchant Settlement",Revenue,"26,619.21",Completed
+2026-02-05,TXN-10123,"Apex Advisory Consulting Fee",Revenue,"53,595.26",Completed
+2026-02-06,TXN-10124,"SaaS Subscription Revenue",Revenue,"912.92",Completed
+2026-02-06,TXN-10125,"AWS Cloud Infrastructure",Hosting,"-6,028.11",Completed
+2026-02-06,TXN-10126,"Google Workspace & Cloud",Software,"-949.45",Completed
+2026-02-07,TXN-10127,"Slack & Figma Tooling",Software,"-595.37",Completed
+2026-02-07,TXN-10128,"WeWork Office Space Rent",Facilities,"-7,904.88",Completed
+2026-02-07,TXN-10129,"Staff Payroll Disbursement",Payroll,"-35,275.72",Completed
+2026-02-07,TXN-10130,"Digital Advertising - Meta & Google",Marketing,"-5,819.10",Completed
+2026-02-08,TXN-10131,"Client Overpayment Refund",Refund,"-2,799.99",Refunded
+2026-02-08,TXN-10132,"Travel & Business Meals",Operations,"-464.56",Completed
+2026-02-08,TXN-10133,"Legal & Regulatory Retainer",Legal,"-5,360.30",Completed
+2026-02-09,TXN-10134,"Hardware & Laptop Procurement",Equipment,"-4,433.16",Completed
+2026-02-09,TXN-10135,"Acme Corp Enterprise Retainer",Revenue,"15,053.34",Completed
+2026-02-09,TXN-10136,"Global Logistics Wire Payout",Revenue,"67,373.49",Completed
+2026-02-09,TXN-10137,"Stripe Merchant Settlement",Revenue,"29,608.83",Completed
+2026-02-10,TXN-10138,"Apex Advisory Consulting Fee",Revenue,"10,612.63",Completed
+2026-02-10,TXN-10139,"SaaS Subscription Revenue",Revenue,"8,372.51",Completed
+2026-02-10,TXN-10140,"AWS Cloud Infrastructure",Hosting,"-5,474.61",Completed
+2026-02-11,TXN-10141,"Google Workspace & Cloud",Software,"-310.57",Completed
+2026-02-11,TXN-10142,"Pending Bank Verification Wire",Suspense,PENDING_AUDIT,Flagged
+2026-02-11,TXN-10143,"WeWork Office Space Rent",Facilities,"-6,592.98",Completed
+2026-02-11,TXN-10144,"Staff Payroll Disbursement",Payroll,"-26,542.35",Completed
+2026-02-12,TXN-10145,"Digital Advertising - Meta & Google",Marketing,"-11,946.85",Completed
+2026-02-12,TXN-10146,"Client Overpayment Refund",Refund,"(1,591.56)",Refunded
+2026-02-12,TXN-10147,"Travel & Business Meals",Operations,"-542.96",Completed
+2026-02-13,TXN-10148,"Legal & Regulatory Retainer",Legal,"-7,469.45",Completed
+2026-02-13,TXN-10149,"Hardware & Laptop Procurement",Equipment,"-2,332.24",Completed
+2026-02-13,TXN-10150,"Acme Corp Enterprise Retainer",Revenue,"32,698.92",Completed
+2026-02-14,TXN-10151,"Global Logistics Wire Payout",Revenue,"81,537.17",Completed
+2026-02-14,TXN-10152,"Stripe Merchant Settlement",Revenue,"6,804.09",Completed
+2026-02-14,TXN-10153,"Apex Advisory Consulting Fee",Revenue,"50,855.95",Completed
+2026-02-14,TXN-10154,"SaaS Subscription Revenue",Revenue,"8,341.32",Completed
+2026-02-15,TXN-10155,"AWS Cloud Infrastructure",Hosting,"-1,126.83",Completed
+2026-02-15,TXN-10156,"Google Workspace & Cloud",Software,"-1,117.81",Completed
+2026-02-15,TXN-10157,"Slack & Figma Tooling",Software,"-1,406.23",Completed
+2026-02-16,TXN-10158,"WeWork Office Space Rent",Facilities,"-4,661.92",Completed
+2026-02-16,TXN-10159,"Staff Payroll Disbursement",Payroll,"-47,377.74",Completed
+2026-02-16,TXN-10160,"Digital Advertising - Meta & Google",Marketing,"-7,658.55",Completed
+2026-02-16,TXN-10161,"Client Overpayment Refund",Refund,"-1,393.38",Refunded
+2026-02-17,TXN-10162,"Travel & Business Meals",Operations,"-949.96",Completed
+2026-02-17,TXN-10163,"Legal & Regulatory Retainer",Legal,"-4,374.35",Completed
+2026-02-17,TXN-10164,"Hardware & Laptop Procurement",Equipment,"-3,246.02",Completed
+2026-02-18,TXN-10165,"Acme Corp Enterprise Retainer",Revenue,"44,095.34",Completed
+2026-02-18,TXN-10166,"Global Logistics Wire Payout",Revenue,"29,535.44",Completed
+2026-02-18,TXN-10167,"Stripe Merchant Settlement",Revenue,"25,096.04",Completed
+2026-02-18,TXN-10168,"Apex Advisory Consulting Fee",Revenue,"55,546.60",Completed
+2026-02-19,TXN-10169,"SaaS Subscription Revenue",Revenue,"849.02",Completed
+2026-02-19,TXN-10170,"AWS Cloud Infrastructure",Hosting,"-5,817.29",Completed
+2026-02-19,TXN-10171,"Google Workspace & Cloud",Software,"-1,004.16",Completed
+2026-02-20,TXN-10172,"Slack & Figma Tooling",Software,"-462.81",Completed
+2026-02-20,TXN-10173,"WeWork Office Space Rent",Facilities,"-7,811.24",Completed
+2026-02-20,TXN-10174,"Staff Payroll Disbursement",Payroll,"-37,405.34",Completed
+2026-02-21,TXN-10175,"Digital Advertising - Meta & Google",Marketing,"-4,965.44",Completed
+2026-02-21,TXN-10176,"Client Overpayment Refund",Refund,"(2,790.38)",Refunded
+2026-02-21,TXN-10177,"Travel & Business Meals",Operations,"-529.19",Completed
+2026-02-21,TXN-10178,"Legal & Regulatory Retainer",Legal,"-4,979.97",Completed
+2026-02-22,TXN-10179,"Hardware & Laptop Procurement",Equipment,"-4,477.47",Completed
+2026-02-22,TXN-10180,"Acme Corp Enterprise Retainer",Revenue,"18,292.10",Completed
+2026-02-22,TXN-10181,"Global Logistics Wire Payout",Revenue,"63,151.46",Completed
+2026-02-23,TXN-10182,"Stripe Merchant Settlement",Revenue,"30,495.78",Completed
+2026-02-23,TXN-10183,"Apex Advisory Consulting Fee",Revenue,"14,996.11",Completed
+2026-02-23,TXN-10184,"SaaS Subscription Revenue",Revenue,"7,975.37",Completed
+2026-02-23,TXN-10185,"AWS Cloud Infrastructure",Hosting,"-5,733.74",Completed
+2026-02-24,TXN-10186,"Google Workspace & Cloud",Software,"-222.23",Completed
+2026-02-24,TXN-10187,"Slack & Figma Tooling",Software,"-1,681.78",Completed
+2026-02-24,TXN-10188,"WeWork Office Space Rent",Facilities,"-6,858.37",Completed
+2026-02-25,TXN-10189,"Staff Payroll Disbursement",Payroll,"-23,886.00",Completed
+2026-02-25,TXN-10190,"Digital Advertising - Meta & Google",Marketing,"-11,816.26",Completed
+2026-02-25,TXN-10191,"Client Overpayment Refund",Refund,"-1,770.18",Refunded
+2026-02-25,TXN-10192,"Travel & Business Meals",Operations,"-478.99",Completed
+2026-02-26,TXN-10193,"Legal & Regulatory Retainer",Legal,"-7,498.81",Completed
+2026-02-26,TXN-10194,"Hardware & Laptop Procurement",Equipment,"-2,590.37",Completed
+2026-02-26,TXN-10195,"Acme Corp Enterprise Retainer",Revenue,"30,158.73",Completed
+2026-02-27,TXN-10196,"Global Logistics Wire Payout",Revenue,"83,167.17",Completed
+2026-02-27,TXN-10197,"Stripe Merchant Settlement",Revenue,"9,257.21",Completed
+2026-02-27,TXN-10198,"Apex Advisory Consulting Fee",Revenue,"48,211.26",Completed
+2026-02-28,TXN-10199,"SaaS Subscription Revenue",Revenue,"8,686.87",Completed
+2026-02-28,TXN-10200,"AWS Cloud Infrastructure",Hosting,"-955.68",Completed
+2026-02-28,TXN-10201,"Google Workspace & Cloud",Software,"-1,079.89",Completed
+2026-02-28,TXN-10202,"Slack & Figma Tooling",Software,"-1,490.82",Completed
+2026-03-01,TXN-10203,"WeWork Office Space Rent",Facilities,"-4,290.03",Completed
+2026-03-01,TXN-10204,"Staff Payroll Disbursement",Payroll,"-46,722.21",Completed
+2026-03-01,TXN-10205,"Digital Advertising - Meta & Google",Marketing,"-8,375.29",Completed
+2026-03-02,TXN-10206,"Client Overpayment Refund",Refund,"(1,196.49)",Refunded
+2026-03-02,TXN-10207,"Travel & Business Meals",Operations,"-947.53",Completed
+2026-03-02,TXN-10208,"Legal & Regulatory Retainer",Legal,"-4,785.48",Completed
+2026-03-02,TXN-10209,"Hardware & Laptop Procurement",Equipment,"-3,019.69",Completed
+2026-03-03,TXN-10210,"Acme Corp Enterprise Retainer",Revenue,"44,670.73",Completed
+2026-03-03,TXN-10211,"Global Logistics Wire Payout",Revenue,"35,466.49",Completed
+2026-03-03,TXN-10212,"Stripe Merchant Settlement",Revenue,"23,410.92",Completed
+2026-03-04,TXN-10213,"Apex Advisory Consulting Fee",Revenue,"57,157.15",Completed
+2026-03-04,TXN-10214,"SaaS Subscription Revenue",Revenue,"1,608.46",Completed
+2026-03-04,TXN-10215,"AWS Cloud Infrastructure",Hosting,"-5,570.51",Completed
+2026-03-04,TXN-10216,"Google Workspace & Cloud",Software,"-1,052.75",Completed
+2026-03-05,TXN-10217,"Slack & Figma Tooling",Software,"-328.37",Completed
+2026-03-05,TXN-10218,"WeWork Office Space Rent",Facilities,"-7,686.71",Completed
+2026-03-05,TXN-10219,"Staff Payroll Disbursement",Payroll,"-39,374.38",Completed
+2026-03-06,TXN-10220,"Digital Advertising - Meta & Google",Marketing,"-4,083.35",Completed
+2026-03-06,TXN-10221,"Client Overpayment Refund",Refund,"-2,762.57",Refunded
+2026-03-06,TXN-10222,"Travel & Business Meals",Operations,"-590.60",Completed
+2026-03-07,TXN-10223,"Legal & Regulatory Retainer",Legal,"-4,578.27",Completed
+2026-03-07,TXN-10224,"Hardware & Laptop Procurement",Equipment,"-4,498.29",Completed
+2026-03-07,TXN-10225,"Acme Corp Enterprise Retainer",Revenue,"21,435.58",Completed
+2026-03-07,TXN-10226,"Global Logistics Wire Payout",Revenue,"58,562.82",Completed
+2026-03-08,TXN-10227,"Stripe Merchant Settlement",Revenue,"31,182.07",Completed
+2026-03-08,TXN-10228,"Apex Advisory Consulting Fee",Revenue,"19,329.46",Completed
+2026-03-08,TXN-10229,"SaaS Subscription Revenue",Revenue,"7,524.66",Completed
+2026-03-09,TXN-10230,"AWS Cloud Infrastructure",Hosting,"-5,957.51",Completed
+2026-03-09,TXN-10231,"Google Workspace & Cloud",Software,"-166.63",Completed
+2026-03-09,TXN-10232,"Slack & Figma Tooling",Software,"-1,625.41",Completed
+2026-03-09,TXN-10233,"WeWork Office Space Rent",Facilities,"-7,099.68",Completed
+2026-03-10,TXN-10234,"Staff Payroll Disbursement",Payroll,"-21,165.96",Completed
+2026-03-10,TXN-10235,"Digital Advertising - Meta & Google",Marketing,"-11,608.15",Completed
+2026-03-10,TXN-10236,"Client Overpayment Refund",Refund,"(1,937.91)",Refunded
+2026-03-11,TXN-10237,"Travel & Business Meals",Operations,"-412.17",Completed
+2026-03-11,TXN-10238,"Legal & Regulatory Retainer",Legal,"-7,488.77",Completed
+2026-03-11,TXN-10239,"Hardware & Laptop Procurement",Equipment,"-2,838.53",Completed
+2026-03-11,TXN-10240,"Acme Corp Enterprise Retainer",Revenue,"27,438.21",Completed
+2026-03-12,TXN-10241,"Global Logistics Wire Payout",Revenue,"84,287.07",Completed
+2026-03-12,TXN-10242,"Stripe Merchant Settlement",Revenue,"11,661.90",Completed
+2026-03-12,TXN-10243,"Apex Advisory Consulting Fee",Revenue,"45,278.35",Completed
+2026-03-13,TXN-10244,"SaaS Subscription Revenue",Revenue,"8,973.73",Completed
+2026-03-13,TXN-10245,"AWS Cloud Infrastructure",Hosting,"-1,437.08",Completed
+2026-03-13,TXN-10246,"Google Workspace & Cloud",Software,"-1,035.31",Completed
+2026-03-14,TXN-10247,"Slack & Figma Tooling",Software,"-1,566.16",Completed
+2026-03-14,TXN-10248,"WeWork Office Space Rent",Facilities,"-3,912.48",Completed
+2026-03-14,TXN-10249,"Staff Payroll Disbursement",Payroll,"-45,839.31",Completed
+2026-03-14,TXN-10250,"Digital Advertising - Meta & Google",Marketing,"-9,039.17",Completed
+2026-03-15,TXN-10251,"Client Overpayment Refund",Refund,"-992.82",Refunded
+2026-03-15,TXN-10252,"Travel & Business Meals",Operations,"-938.88",Completed
+2026-03-15,TXN-10253,"Legal & Regulatory Retainer",Legal,"-5,176.64",Completed
+2026-03-16,TXN-10254,"Hardware & Laptop Procurement",Equipment,"-2,780.31",Completed
+2026-03-16,TXN-10255,"Acme Corp Enterprise Retainer",Revenue,"44,961.79",Completed
+2026-03-16,TXN-10256,"Global Logistics Wire Payout",Revenue,"41,229.35",Completed
+2026-03-16,TXN-10257,"Stripe Merchant Settlement",Revenue,"21,575.92",Completed
+2026-03-17,TXN-10258,"Apex Advisory Consulting Fee",Revenue,"58,415.38",Completed
+2026-03-17,TXN-10259,"SaaS Subscription Revenue",Revenue,"2,359.96",Completed
+2026-03-17,TXN-10260,"AWS Cloud Infrastructure",Hosting,"-5,289.54",Completed
+2026-03-18,TXN-10261,"Google Workspace & Cloud",Software,"-1,094.88",Completed
+2026-03-18,TXN-10262,"Slack & Figma Tooling",Software,"-206.99",Completed
+2026-03-18,TXN-10263,"WeWork Office Space Rent",Facilities,"-7,532.17",Completed
+2026-03-18,TXN-10264,"Staff Payroll Disbursement",Payroll,"-41,168.71",Completed
+2026-03-19,TXN-10265,"Digital Advertising - Meta & Google",Marketing,"-3,179.17",Completed
+2026-03-19,TXN-10266,"Client Overpayment Refund",Refund,"(2,716.74)",Refunded
+2026-03-19,TXN-10267,"Travel & Business Meals",Operations,"-648.35",Completed
+2026-03-20,TXN-10268,"Legal & Regulatory Retainer",Legal,"-4,158.10",Completed
+2026-03-20,TXN-10269,"Hardware & Laptop Procurement",Equipment,"-4,495.46",Completed
+2026-03-20,TXN-10270,"Acme Corp Enterprise Retainer",Revenue,"24,461.27",Completed
+2026-03-21,TXN-10271,"Global Logistics Wire Payout",Revenue,"53,640.43",Completed
+2026-03-21,TXN-10272,"Stripe Merchant Settlement",Revenue,"31,662.79",Completed
+2026-03-21,TXN-10273,"Apex Advisory Consulting Fee",Revenue,"23,581.60",Completed
+2026-03-21,TXN-10274,"SaaS Subscription Revenue",Revenue,"7,023.59",Completed
+2026-03-22,TXN-10275,"AWS Cloud Infrastructure",Hosting,"-6,144.31",Completed
+2026-03-22,TXN-10276,"Google Workspace & Cloud",Software,"-255.38",Completed
+2026-03-22,TXN-10277,"Slack & Figma Tooling",Software,"-1,558.83",Completed
+2026-03-23,TXN-10278,"WeWork Office Space Rent",Facilities,"-7,315.20",Completed
+2026-03-23,TXN-10279,"Staff Payroll Disbursement",Payroll,"-18,401.72",Completed
+2026-03-23,TXN-10280,"Digital Advertising - Meta & Google",Marketing,"-11,324.01",Completed
+2026-03-23,TXN-10281,"Client Overpayment Refund",Refund,"-2,093.53",Refunded
+2026-03-24,TXN-10282,"Travel & Business Meals",Operations,"-342.96",Completed
+2026-03-24,TXN-10283,"Legal & Regulatory Retainer",Legal,"-7,439.38",Completed
+2026-03-24,TXN-10284,"Hardware & Laptop Procurement",Equipment,"-3,074.95",Completed
+2026-03-25,TXN-10285,"Acme Corp Enterprise Retainer",Revenue,"24,556.88",Completed
+2026-03-25,TXN-10286,"Global Logistics Wire Payout",Revenue,"84,888.87",Completed
+2026-03-25,TXN-10287,"Stripe Merchant Settlement",Revenue,"14,000.93",Completed
+2026-03-25,TXN-10288,"Apex Advisory Consulting Fee",Revenue,"42,078.25",Completed
+2026-03-26,TXN-10289,"SaaS Subscription Revenue",Revenue,"9,199.87",Completed
+2026-03-26,TXN-10290,"AWS Cloud Infrastructure",Hosting,"-1,913.91",Completed
+2026-03-26,TXN-10291,"Google Workspace & Cloud",Software,"-984.39",Completed
+2026-03-27,TXN-10292,"Slack & Figma Tooling",Software,"-1,631.71",Completed
+2026-03-27,TXN-10293,"WeWork Office Space Rent",Facilities,"-3,531.98",Completed
+2026-03-27,TXN-10294,"Staff Payroll Disbursement",Payroll,"-44,735.37",Completed
+2026-03-28,TXN-10295,"Digital Advertising - Meta & Google",Marketing,"-9,645.44",Completed
+2026-03-28,TXN-10296,"Client Overpayment Refund",Refund,"(783.82)",Refunded
+2026-03-28,TXN-10297,"Travel & Business Meals",Operations,"-924.07",Completed
+2026-03-28,TXN-10298,"Legal & Regulatory Retainer",Legal,"-5,545.03",Completed
+2026-03-29,TXN-10299,"Hardware & Laptop Procurement",Equipment,"-2,529.60",Completed
+2026-03-29,TXN-10300,"Acme Corp Enterprise Retainer",Revenue,"44,966.43",Completed
+2026-03-29,TXN-10301,"Global Logistics Wire Payout",Revenue,"46,782.71",Completed
+2026-03-30,TXN-10302,"Stripe Merchant Settlement",Revenue,"19,604.20",Completed
+2026-03-30,TXN-10303,"Apex Advisory Consulting Fee",Revenue,"59,312.25",Completed
+2026-03-30,TXN-10304,"SaaS Subscription Revenue",Revenue,"3,098.12",Completed
+2026-03-30,TXN-10305,"AWS Cloud Infrastructure",Hosting,"-4,976.39",Completed
+2026-03-31,TXN-10306,"Google Workspace & Cloud",Software,"-1,130.22",Completed
+2026-03-31,TXN-10307,"Slack & Figma Tooling",Software,"-342.30",Completed
+2026-03-31,TXN-10308,"WeWork Office Space Rent",Facilities,"-7,348.72",Completed
+2026-04-01,TXN-10309,"Staff Payroll Disbursement",Payroll,"-42,775.48",Completed
+2026-04-01,TXN-10310,"Digital Advertising - Meta & Google",Marketing,"-2,259.37",Completed
+2026-04-01,TXN-10311,"Client Overpayment Refund",Refund,"-2,653.23",Refunded
+2026-04-01,TXN-10312,"Travel & Business Meals",Operations,"-702.03",Completed
+2026-04-02,TXN-10313,"Legal & Regulatory Retainer",Legal,"-3,722.46",Completed
+2026-04-02,TXN-10314,"Hardware & Laptop Procurement",Equipment,"-4,469.02",Completed
+2026-04-02,TXN-10315,"Acme Corp Enterprise Retainer",Revenue,"27,347.47",Completed
+2026-04-03,TXN-10316,"Global Logistics Wire Payout",Revenue,"48,419.59",Completed
+2026-04-03,TXN-10317,"Stripe Merchant Settlement",Revenue,"31,934.48",Completed
+2026-04-03,TXN-10318,"Apex Advisory Consulting Fee",Revenue,"27,722.06",Completed
+2026-04-04,TXN-10319,"SaaS Subscription Revenue",Revenue,"6,475.77",Completed
+2026-04-04,TXN-10320,"AWS Cloud Infrastructure",Hosting,"-6,292.80",Completed
+2026-04-04,TXN-10321,"Google Workspace & Cloud",Software,"-343.36",Completed
+2026-04-04,TXN-10322,"Slack & Figma Tooling",Software,"-1,482.51",Completed
+2026-04-05,TXN-10323,"WeWork Office Space Rent",Facilities,"-7,503.36",Completed
+2026-04-05,TXN-10324,"Staff Payroll Disbursement",Payroll,"-15,613.10",Completed
+2026-04-05,TXN-10325,"Digital Advertising - Meta & Google",Marketing,"-10,965.87",Completed
+2026-04-06,TXN-10326,"Client Overpayment Refund",Refund,"(2,235.95)",Refunded
+2026-04-06,TXN-10327,"Travel & Business Meals",Operations,"-271.87",Completed
+2026-04-06,TXN-10328,"Legal & Regulatory Retainer",Legal,"-7,351.01",Completed
+2026-04-06,TXN-10329,"Hardware & Laptop Procurement",Equipment,"-3,297.93",Completed
+2026-04-07,TXN-10330,"Acme Corp Enterprise Retainer",Revenue,"21,535.37",Completed
+2026-04-07,TXN-10331,"Global Logistics Wire Payout",Revenue,"84,968.24",Completed
+2026-04-07,TXN-10332,"Stripe Merchant Settlement",Revenue,"16,257.52",Completed
+2026-04-08,TXN-10333,"Apex Advisory Consulting Fee",Revenue,"38,633.90",Completed
+2026-04-08,TXN-10334,"SaaS Subscription Revenue",Revenue,"9,363.64",Completed
+2026-04-08,TXN-10335,"AWS Cloud Infrastructure",Hosting,"-2,382.75",Completed
+2026-04-08,TXN-10336,"Google Workspace & Cloud",Software,"-927.48",Completed
+2026-04-09,TXN-10337,"Slack & Figma Tooling",Software,"-1,687.00",Completed
+2026-04-09,TXN-10338,"WeWork Office Space Rent",Facilities,"-3,848.76",Completed
+2026-04-09,TXN-10339,"Staff Payroll Disbursement",Payroll,"-43,418.31",Completed
+2026-04-10,TXN-10340,"Digital Advertising - Meta & Google",Marketing,"-10,189.73",Completed
+2026-04-10,TXN-10341,"Client Overpayment Refund",Refund,"-570.99",Refunded
+2026-04-10,TXN-10342,"Travel & Business Meals",Operations,"-903.21",Completed
+2026-04-11,TXN-10343,"Legal & Regulatory Retainer",Legal,"-5,888.01",Completed
+2026-04-11,TXN-10344,"Hardware & Laptop Procurement",Equipment,"-2,269.37",Completed
+2026-04-11,TXN-10345,"Acme Corp Enterprise Retainer",Revenue,"44,684.61",Completed
+2026-04-11,TXN-10346,"Global Logistics Wire Payout",Revenue,"52,086.77",Completed
+2026-04-12,TXN-10347,"Stripe Merchant Settlement",Revenue,"17,509.88",Completed
+2026-04-12,TXN-10348,"Apex Advisory Consulting Fee",Revenue,"59,841.35",Completed
+2026-04-12,TXN-10349,"SaaS Subscription Revenue",Revenue,"3,817.66",Completed
+2026-04-13,TXN-10350,"AWS Cloud Infrastructure",Hosting,"-4,633.31",Completed
+2026-04-13,TXN-10351,"Google Workspace & Cloud",Software,"-1,158.55",Completed
+2026-04-13,TXN-10352,"Slack & Figma Tooling",Software,"-476.59",Completed
+2026-04-13,TXN-10353,"WeWork Office Space Rent",Facilities,"-7,137.69",Completed
+2026-04-14,TXN-10354,"Staff Payroll Disbursement",Payroll,"-44,183.17",Completed
+2026-04-14,TXN-10355,"Digital Advertising - Meta & Google",Marketing,"-1,330.54",Completed
+2026-04-14,TXN-10356,"Client Overpayment Refund",Refund,"(2,572.50)",Refunded
+2026-04-15,TXN-10357,"Travel & Business Meals",Operations,"-751.25",Completed
+2026-04-15,TXN-10358,"Legal & Regulatory Retainer",Legal,"-3,274.47",Completed
+2026-04-15,TXN-10359,"Hardware & Laptop Procurement",Equipment,"-4,419.15",Completed
+2026-04-15,TXN-10360,"Acme Corp Enterprise Retainer",Revenue,"30,073.49",Completed
+2026-04-16,TXN-10361,"Global Logistics Wire Payout",Revenue,"42,937.72",Completed
+2026-04-16,TXN-10362,"Stripe Merchant Settlement",Revenue,"31,995.21",Completed
+2026-04-16,TXN-10363,"Apex Advisory Consulting Fee",Revenue,"31,721.16",Completed
+2026-04-17,TXN-10364,"SaaS Subscription Revenue",Revenue,"5,885.11",Completed
+2026-04-17,TXN-10365,"AWS Cloud Infrastructure",Hosting,"-6,401.93",Completed
+2026-04-17,TXN-10366,"Google Workspace & Cloud",Software,"-429.97",Completed
+2026-04-18,TXN-10367,"Slack & Figma Tooling",Software,"-1,397.00",Completed
+2026-04-18,TXN-10368,"WeWork Office Space Rent",Facilities,"-7,662.84",Completed
+2026-04-18,TXN-10369,"Staff Payroll Disbursement",Payroll,"-17,179.91",Completed
+2026-04-18,TXN-10370,"Digital Advertising - Meta & Google",Marketing,"-10,536.30",Completed
+2026-04-19,TXN-10371,"Client Overpayment Refund",Refund,"-2,364.13",Refunded
+2026-04-19,TXN-10372,"Travel & Business Meals",Operations,"-199.41",Completed
+2026-04-19,TXN-10373,"Legal & Regulatory Retainer",Legal,"-7,224.28",Completed
+2026-04-20,TXN-10374,"Hardware & Laptop Procurement",Equipment,"-3,505.87",Completed
+2026-04-20,TXN-10375,"Acme Corp Enterprise Retainer",Revenue,"18,395.34",Completed
+2026-04-20,TXN-10376,"Global Logistics Wire Payout",Revenue,"84,524.61",Completed
+2026-04-20,TXN-10377,"Stripe Merchant Settlement",Revenue,"18,415.51",Completed
+2026-04-21,TXN-10378,"Apex Advisory Consulting Fee",Revenue,"34,969.98",Completed
+2026-04-21,TXN-10379,"SaaS Subscription Revenue",Revenue,"9,463.89",Completed
+2026-04-21,TXN-10380,"AWS Cloud Infrastructure",Hosting,"-2,840.25",Completed
+2026-04-22,TXN-10381,"Google Workspace & Cloud",Software,"-865.01",Completed
+2026-04-22,TXN-10382,"Slack & Figma Tooling",Software,"-1,731.63",Completed
+2026-04-22,TXN-10383,"WeWork Office Space Rent",Facilities,"-4,227.00",Completed
+2026-04-22,TXN-10384,"Staff Payroll Disbursement",Payroll,"-41,897.56",Completed
+2026-04-23,TXN-10385,"Digital Advertising - Meta & Google",Marketing,"-10,668.16",Completed
+2026-04-23,TXN-10386,"Client Overpayment Refund",Refund,"(355.87)",Refunded
+2026-04-23,TXN-10387,"Travel & Business Meals",Operations,"-876.45",Completed
+2026-04-24,TXN-10388,"Legal & Regulatory Retainer",Legal,"-6,203.13",Completed
+2026-04-24,TXN-10389,"Hardware & Laptop Procurement",Equipment,"-2,001.47",Completed
+2026-04-24,TXN-10390,"Acme Corp Enterprise Retainer",Revenue,"44,118.35",Completed
+2026-04-25,TXN-10391,"Global Logistics Wire Payout",Revenue,"57,103.50",Completed
+2026-04-25,TXN-10392,"Stripe Merchant Settlement",Revenue,"15,307.98",Completed
+2026-04-25,TXN-10393,"Apex Advisory Consulting Fee",Revenue,"59,998.88",Completed
+2026-04-25,TXN-10394,"SaaS Subscription Revenue",Revenue,"4,513.42",Completed
+2026-04-26,TXN-10395,"AWS Cloud Infrastructure",Hosting,"-4,262.75",Completed
+2026-04-26,TXN-10396,"Google Workspace & Cloud",Software,"-1,179.64",Completed
+2026-04-26,TXN-10397,"Slack & Figma Tooling",Software,"-608.89",Completed
+2026-04-27,TXN-10398,"WeWork Office Space Rent",Facilities,"-6,900.59",Completed
+2026-04-27,TXN-10399,"Staff Payroll Disbursement",Payroll,"-45,381.69",Completed
+2026-04-27,TXN-10400,"Digital Advertising - Meta & Google",Marketing,"-1,600.65",Completed
+2026-04-27,TXN-10401,"Client Overpayment Refund",Refund,"-2,475.13",Refunded
+2026-04-28,TXN-10402,"Travel & Business Meals",Operations,"-795.66",Completed
+2026-04-28,TXN-10403,"Legal & Regulatory Retainer",Legal,"-2,817.35",Completed
+2026-04-28,TXN-10404,"Hardware & Laptop Procurement",Equipment,"-4,346.20",Completed
+2026-04-29,TXN-10405,"Acme Corp Enterprise Retainer",Revenue,"32,619.80",Completed
+2026-04-29,TXN-10406,"Global Logistics Wire Payout",Revenue,"37,234.11",Completed
+2026-04-29,TXN-10407,"Stripe Merchant Settlement",Revenue,"31,844.53",Completed
+2026-04-29,TXN-10408,"Apex Advisory Consulting Fee",Revenue,"35,550.25",Completed
+2026-04-30,TXN-10409,"SaaS Subscription Revenue",Revenue,"5,255.86",Completed
+2026-04-30,TXN-10410,"AWS Cloud Infrastructure",Hosting,"-6,470.90",Completed
+2026-04-30,TXN-10411,"Google Workspace & Cloud",Software,"-514.56",Completed
+2026-05-01,TXN-10412,"Slack & Figma Tooling",Software,"-1,302.90",Completed
+2026-05-01,TXN-10413,"WeWork Office Space Rent",Facilities,"-7,792.48",Completed
+2026-05-01,TXN-10414,"Staff Payroll Disbursement",Payroll,"-19,957.30",Completed
+2026-05-02,TXN-10415,"Digital Advertising - Meta & Google",Marketing,"-10,038.38",Completed
+2026-05-02,TXN-10416,"Client Overpayment Refund",Refund,"(2,477.15)",Refunded
+2026-05-02,TXN-10417,"Travel & Business Meals",Operations,"-126.09",Completed
+2026-05-02,TXN-10418,"Legal & Regulatory Retainer",Legal,"-7,060.11",Completed
+2026-05-03,TXN-10419,"Hardware & Laptop Procurement",Equipment,"-3,697.29",Completed
+2026-05-03,TXN-10420,"Acme Corp Enterprise Retainer",Revenue,"15,159.30",Completed
+2026-05-03,TXN-10421,"Global Logistics Wire Payout",Revenue,"83,561.18",Completed
+2026-05-04,TXN-10422,"Stripe Merchant Settlement",Revenue,"20,459.42",Completed
+2026-05-04,TXN-10423,"Apex Advisory Consulting Fee",Revenue,"31,112.76",Completed
+2026-05-04,TXN-10424,"SaaS Subscription Revenue",Revenue,"9,499.89",Completed
+2026-05-04,TXN-10425,"AWS Cloud Infrastructure",Hosting,"-3,283.13",Completed
+2026-05-05,TXN-10426,"Google Workspace & Cloud",Software,"-797.40",Completed
+2026-05-05,TXN-10427,"Slack & Figma Tooling",Software,"-1,765.28",Completed
+2026-05-05,TXN-10428,"WeWork Office Space Rent",Facilities,"-4,600.02",Completed
+2026-05-06,TXN-10429,"Staff Payroll Disbursement",Payroll,"-40,184.02",Completed
+2026-05-06,TXN-10430,"Digital Advertising - Meta & Google",Marketing,"-11,077.29",Completed
+2026-05-06,TXN-10431,"Client Overpayment Refund",Refund,"-360.02",Refunded
+2026-05-06,TXN-10432,"Travel & Business Meals",Operations,"-843.99",Completed
+2026-05-07,TXN-10433,"Legal & Regulatory Retainer",Legal,"-6,488.11",Completed
+2026-05-07,TXN-10434,"Hardware & Laptop Procurement",Equipment,"-1,727.82",Completed
+2026-05-07,TXN-10435,"Acme Corp Enterprise Retainer",Revenue,"43,271.72",Completed
+2026-05-08,TXN-10436,"Global Logistics Wire Payout",Revenue,"61,796.97",Completed
+2026-05-08,TXN-10437,"Stripe Merchant Settlement",Revenue,"13,014.28",Completed
+2026-05-08,TXN-10438,"Apex Advisory Consulting Fee",Revenue,"59,783.72",Completed
+2026-05-09,TXN-10439,"SaaS Subscription Revenue",Revenue,"5,180.42",Completed
+2026-05-09,TXN-10440,"AWS Cloud Infrastructure",Hosting,"-3,867.37",Completed
+2026-05-09,TXN-10441,"Google Workspace & Cloud",Software,"-1,193.36",Completed
+2026-05-09,TXN-10442,"Slack & Figma Tooling",Software,"-738.27",Completed
+2026-05-10,TXN-10443,"WeWork Office Space Rent",Facilities,"-6,639.12",Completed
+2026-05-10,TXN-10444,"Staff Payroll Disbursement",Payroll,"-46,362.45",Completed
+2026-05-10,TXN-10445,"Digital Advertising - Meta & Google",Marketing,"-2,527.54",Completed
+2026-05-11,TXN-10446,"Client Overpayment Refund",Refund,"(2,361.80)",Refunded
+2026-05-11,TXN-10447,"Travel & Business Meals",Operations,"-834.94",Completed
+2026-05-11,TXN-10448,"Legal & Regulatory Retainer",Legal,"-2,354.37",Completed
+2026-05-11,TXN-10449,"Hardware & Laptop Procurement",Equipment,"-4,250.70",Completed
+2026-05-12,TXN-10450,"Acme Corp Enterprise Retainer",Revenue,"34,968.15",Completed
+2026-05-12,TXN-10451,"Global Logistics Wire Payout",Revenue,"31,349.63",Completed
+2026-05-12,TXN-10452,"Stripe Merchant Settlement",Revenue,"31,483.52",Completed
+2026-05-13,TXN-10453,"Apex Advisory Consulting Fee",Revenue,"39,181.87",Completed
+2026-05-13,TXN-10454,"SaaS Subscription Revenue",Revenue,"4,592.53",Completed
+2026-05-13,TXN-10455,"AWS Cloud Infrastructure",Hosting,"-6,499.23",Completed
+2026-05-13,TXN-10456,"Google Workspace & Cloud",Software,"-596.54",Completed
+2026-05-14,TXN-10457,"Slack & Figma Tooling",Software,"-1,200.91",Completed
+2026-05-14,TXN-10458,"WeWork Office Space Rent",Facilities,"-7,891.35",Completed
+2026-05-14,TXN-10459,"Staff Payroll Disbursement",Payroll,"-22,699.15",Completed
+2026-05-15,TXN-10460,"Digital Advertising - Meta & Google",Marketing,"-9,475.68",Completed
+2026-05-15,TXN-10461,"Client Overpayment Refund",Refund,"-2,574.22",Refunded
+2026-05-15,TXN-10462,"Travel & Business Meals",Operations,"-107.56",Completed
+2026-05-16,TXN-10463,"Legal & Regulatory Retainer",Legal,"-6,859.67",Completed
+2026-05-16,TXN-10464,"Hardware & Laptop Procurement",Equipment,"-3,870.81",Completed
+2026-05-16,TXN-10465,"Acme Corp Enterprise Retainer",Revenue,"11,850.45",Completed
+2026-05-16,TXN-10466,"Global Logistics Wire Payout",Revenue,"82,084.83",Completed
+2026-05-17,TXN-10467,"Stripe Merchant Settlement",Revenue,"22,374.61",Completed
+2026-05-17,TXN-10468,"Apex Advisory Consulting Fee",Revenue,"27,089.88",Completed
+2026-05-17,TXN-10469,"SaaS Subscription Revenue",Revenue,"9,471.38",Completed
+2026-05-18,TXN-10470,"AWS Cloud Infrastructure",Hosting,"-3,708.21",Completed
+2026-05-18,TXN-10471,"Google Workspace & Cloud",Software,"-725.16",Completed
+2026-05-18,TXN-10472,"Slack & Figma Tooling",Software,"-1,787.71",Completed
+2026-05-18,TXN-10473,"WeWork Office Space Rent",Facilities,"-4,965.16",Completed
+2026-05-19,TXN-10474,"Staff Payroll Disbursement",Payroll,"-38,289.98",Completed
+2026-05-19,TXN-10475,"Digital Advertising - Meta & Google",Marketing,"-11,414.20",Completed
+2026-05-19,TXN-10476,"Client Overpayment Refund",Refund,"(575.11)",Refunded
+2026-05-20,TXN-10477,"Travel & Business Meals",Operations,"-806.04",Completed
+2026-05-20,TXN-10478,"Legal & Regulatory Retainer",Legal,"-6,740.94",Completed
+2026-05-20,TXN-10479,"Hardware & Laptop Procurement",Equipment,"-1,450.39",Completed
+2026-05-20,TXN-10480,"Acme Corp Enterprise Retainer",Revenue,"42,150.77",Completed
+2026-05-21,TXN-10481,"Global Logistics Wire Payout",Revenue,"66,133.51",Completed
+2026-05-21,TXN-10482,"Stripe Merchant Settlement",Revenue,"10,645.22",Completed
+2026-05-21,TXN-10483,"Apex Advisory Consulting Fee",Revenue,"59,197.39",Completed
+2026-05-22,TXN-10484,"SaaS Subscription Revenue",Revenue,"5,813.87",Completed
+2026-05-22,TXN-10485,"AWS Cloud Infrastructure",Hosting,"-3,450.01",Completed
+2026-05-22,TXN-10486,"Google Workspace & Cloud",Software,"-1,199.59",Completed
+2026-05-23,TXN-10487,"Slack & Figma Tooling",Software,"-863.79",Completed
+2026-05-23,TXN-10488,"WeWork Office Space Rent",Facilities,"-6,355.14",Completed
+2026-05-23,TXN-10489,"Staff Payroll Disbursement",Payroll,"-47,118.43",Completed
+2026-05-23,TXN-10490,"Digital Advertising - Meta & Google",Marketing,"-3,443.49",Completed
+2026-05-24,TXN-10491,"Client Overpayment Refund",Refund,"-2,233.34",Refunded
+2026-05-24,TXN-10492,"Travel & Business Meals",Operations,"-868.81",Completed
+2026-05-24,TXN-10493,"Legal & Regulatory Retainer",Legal,"-2,111.15",Completed
+2026-05-25,TXN-10494,"Hardware & Laptop Procurement",Equipment,"-4,133.34",Completed
+2026-05-25,TXN-10495,"Acme Corp Enterprise Retainer",Revenue,"37,101.71",Completed
+2026-05-25,TXN-10496,"Global Logistics Wire Payout",Revenue,"25,326.46",Completed
+2026-05-25,TXN-10497,"Stripe Merchant Settlement",Revenue,"30,914.78",Completed
+2026-05-26,TXN-10498,"Apex Advisory Consulting Fee",Revenue,"42,590.00",Completed
+2026-05-26,TXN-10499,"SaaS Subscription Revenue",Revenue,"3,899.85",Completed
+2026-05-26,TXN-10500,"AWS Cloud Infrastructure",Hosting,"-6,486.71",Completed
+2026-05-27,TXN-10501,"Google Workspace & Cloud",Software,"-675.33",Completed
+2026-05-27,TXN-10502,"Slack & Figma Tooling",Software,"-1,091.73",Completed
+2026-05-27,TXN-10503,"WeWork Office Space Rent",Facilities,"-7,958.75",Completed
+2026-05-27,TXN-10504,"Staff Payroll Disbursement",Payroll,"-25,385.83",Completed
+2026-05-28,TXN-10505,"Digital Advertising - Meta & Google",Marketing,"-8,852.23",Completed
+2026-05-28,TXN-10506,"Client Overpayment Refund",Refund,"(2,654.62)",Refunded
+2026-05-28,TXN-10507,"Travel & Business Meals",Operations,"-181.01",Completed
+2026-05-29,TXN-10508,"Legal & Regulatory Retainer",Legal,"-6,624.40",Completed
+2026-05-29,TXN-10509,"Hardware & Laptop Procurement",Equipment,"-4,025.18",Completed
+2026-05-29,TXN-10510,"Acme Corp Enterprise Retainer",Revenue,"8,492.50",Completed
+2026-05-30,TXN-10511,"Global Logistics Wire Payout",Revenue,"80,106.15",Completed
+2026-05-30,TXN-10512,"Stripe Merchant Settlement",Revenue,"24,147.35",Completed
+2026-05-30,TXN-10513,"Apex Advisory Consulting Fee",Revenue,"22,930.18",Completed
+2026-05-30,TXN-10514,"SaaS Subscription Revenue",Revenue,"9,378.58",Completed
+2026-05-31,TXN-10515,"AWS Cloud Infrastructure",Hosting,"-4,112.45",Completed
+2026-05-31,TXN-10516,"Google Workspace & Cloud",Software,"-648.79",Completed
+2026-05-31,TXN-10517,"Slack & Figma Tooling",Software,"-1,798.76",Completed
+2026-06-01,TXN-10518,"WeWork Office Space Rent",Facilities,"-5,319.80",Completed
+2026-06-01,TXN-10519,"Staff Payroll Disbursement",Payroll,"-36,229.01",Completed
+2026-06-01,TXN-10520,"Digital Advertising - Meta & Google",Marketing,"-11,676.46",Completed
+2026-06-01,TXN-10521,"Client Overpayment Refund",Refund,"-787.88",Refunded
+2026-06-02,TXN-10522,"Travel & Business Meals",Operations,"-762.90",Completed
+2026-06-02,TXN-10523,"Legal & Regulatory Retainer",Legal,"-6,959.78",Completed
+2026-06-02,TXN-10524,"Hardware & Laptop Procurement",Equipment,"-1,228.83",Completed
+2026-06-03,TXN-10525,"Acme Corp Enterprise Retainer",Revenue,"40,763.55",Completed
+2026-06-03,TXN-10526,"Global Logistics Wire Payout",Revenue,"70,082.06",Completed
+2026-06-03,TXN-10527,"Stripe Merchant Settlement",Revenue,"8,217.78",Completed
+2026-06-03,TXN-10528,"Apex Advisory Consulting Fee",Revenue,"58,244.12",Completed
+2026-06-04,TXN-10529,"SaaS Subscription Revenue",Revenue,"6,409.23",Completed
+2026-06-04,TXN-10530,"AWS Cloud Infrastructure",Hosting,"-3,013.65",Completed
+2026-06-04,TXN-10531,"Google Workspace & Cloud",Software,"-1,198.31",Completed
+2026-06-05,TXN-10532,"Slack & Figma Tooling",Software,"-984.55",Completed
+2026-06-05,TXN-10533,"WeWork Office Space Rent",Facilities,"-6,050.71",Completed
+2026-06-05,TXN-10534,"Staff Payroll Disbursement",Payroll,"-47,644.20",Completed
+2026-06-06,TXN-10535,"Digital Advertising - Meta & Google",Marketing,"-4,341.92",Completed
+2026-06-06,TXN-10536,"Client Overpayment Refund",Refund,"(2,090.66)",Refunded
+2026-06-06,TXN-10537,"Travel & Business Meals",Operations,"-897.02",Completed
+2026-06-06,TXN-10538,"Legal & Regulatory Retainer",Legal,"-2,575.87",Completed
+2026-06-07,TXN-10539,"Hardware & Laptop Procurement",Equipment,"-3,994.95",Completed
+2026-06-07,TXN-10540,"Acme Corp Enterprise Retainer",Revenue,"39,005.18",Completed
+2026-06-07,TXN-10541,"Global Logistics Wire Payout",Revenue,"19,207.78",Completed
+2026-06-08,TXN-10542,"Stripe Merchant Settlement",Revenue,"30,142.38",Completed
+2026-06-08,TXN-10543,"Apex Advisory Consulting Fee",Revenue,"45,750.20",Completed
+2026-06-08,TXN-10544,"SaaS Subscription Revenue",Revenue,"3,182.81",Completed
+2026-06-08,TXN-10545,"AWS Cloud Infrastructure",Hosting,"-6,433.44",Completed
+2026-06-09,TXN-10546,"Google Workspace & Cloud",Software,"-750.34",Completed
+2026-06-09,TXN-10547,"Slack & Figma Tooling",Software,"-976.17",Completed
+2026-06-09,TXN-10548,"WeWork Office Space Rent",Facilities,"-7,994.19",Completed
+2026-06-10,TXN-10549,"Staff Payroll Disbursement",Payroll,"-27,998.06",Completed
+2026-06-10,TXN-10550,"Digital Advertising - Meta & Google",Marketing,"-8,172.50",Completed
+2026-06-10,TXN-10551,"Client Overpayment Refund",Refund,"-2,717.79",Refunded
+2026-06-10,TXN-10552,"Travel & Business Meals",Operations,"-253.74",Completed
+2026-06-11,TXN-10553,"Legal & Regulatory Retainer",Legal,"-6,355.98",Completed
+2026-06-11,TXN-10554,"Hardware & Laptop Procurement",Equipment,"-4,159.31",Completed
+2026-06-11,TXN-10555,"Acme Corp Enterprise Retainer",Revenue,"5,109.52",Completed
+2026-06-12,TXN-10556,"Global Logistics Wire Payout",Revenue,"77,639.33",Completed
+2026-06-12,TXN-10557,"Stripe Merchant Settlement",Revenue,"25,764.94",Completed
+2026-06-12,TXN-10558,"Apex Advisory Consulting Fee",Revenue,"18,663.46",Completed
+2026-06-13,TXN-10559,"SaaS Subscription Revenue",Revenue,"9,222.13",Completed
+2026-06-13,TXN-10560,"AWS Cloud Infrastructure",Hosting,"-4,492.94",Completed
+2026-06-13,TXN-10561,"Google Workspace & Cloud",Software,"-568.85",Completed
+2026-06-13,TXN-10562,"Slack & Figma Tooling",Software,"-1,798.36",Completed
+2026-06-14,TXN-10563,"WeWork Office Space Rent",Facilities,"-5,661.40",Completed
+2026-06-14,TXN-10564,"Staff Payroll Disbursement",Payroll,"-34,015.89",Completed
+2026-06-14,TXN-10565,"Digital Advertising - Meta & Google",Marketing,"-11,862.20",Completed
+2026-06-15,TXN-10566,"Client Overpayment Refund",Refund,"(996.79)",Refunded
+2026-06-15,TXN-10567,"Travel & Business Meals",Operations,"-714.86",Completed
+2026-06-15,TXN-10568,"Legal & Regulatory Retainer",Legal,"-7,143.07",Completed
+2026-06-15,TXN-10569,"Hardware & Laptop Procurement",Equipment,"-1,507.84",Completed
+2026-06-16,TXN-10570,"Acme Corp Enterprise Retainer",Revenue,"39,120.00",Completed
+2026-06-16,TXN-10571,"Global Logistics Wire Payout",Revenue,"73,614.31",Completed
+2026-06-16,TXN-10572,"Stripe Merchant Settlement",Revenue,"5,749.36",Completed
+2026-06-17,TXN-10573,"Apex Advisory Consulting Fee",Revenue,"56,930.72",Completed
+2026-06-17,TXN-10574,"SaaS Subscription Revenue",Revenue,"6,962.24",Completed
+2026-06-17,TXN-10575,"AWS Cloud Infrastructure",Hosting,"-2,561.43",Completed
+2026-06-17,TXN-10576,"Google Workspace & Cloud",Software,"-1,189.51",Completed
+2026-06-18,TXN-10577,"Slack & Figma Tooling",Software,"-1,099.69",Completed
+2026-06-18,TXN-10578,"WeWork Office Space Rent",Facilities,"-5,727.99",Completed
+2026-06-18,TXN-10579,"Staff Payroll Disbursement",Payroll,"-47,936.00",Completed
+2026-06-19,TXN-10580,"Digital Advertising - Meta & Google",Marketing,"-5,216.39",Completed
+2026-06-19,TXN-10581,"Client Overpayment Refund",Refund,"-1,934.79",Refunded
+2026-06-19,TXN-10582,"Travel & Business Meals",Operations,"-919.38",Completed
+2026-06-20,TXN-10583,"Legal & Regulatory Retainer",Legal,"-3,036.47",Completed
+2026-06-20,TXN-10584,"Hardware & Laptop Procurement",Equipment,"-3,836.53",Completed
+2026-06-20,TXN-10585,"Acme Corp Enterprise Retainer",Revenue,"40,664.92",Completed
+2026-06-20,TXN-10586,"Global Logistics Wire Payout",Revenue,"13,037.43",Completed
+2026-06-21,TXN-10587,"Stripe Merchant Settlement",Revenue,"29,171.86",Completed
+2026-06-21,TXN-10588,"Disputed Chargeback Notice",Dispute,REQUIRES_REVIEW,Flagged
+2026-06-21,TXN-10589,"SaaS Subscription Revenue",Revenue,"2,446.55",Completed
+2026-06-22,TXN-10590,"AWS Cloud Infrastructure",Hosting,"-6,339.78",Completed
+2026-06-22,TXN-10591,"Google Workspace & Cloud",Software,"-821.06",Completed
+2026-06-22,TXN-10592,"Slack & Figma Tooling",Software,"-855.04",Completed
+2026-06-22,TXN-10593,"WeWork Office Space Rent",Facilities,"-7,997.42",Completed
+2026-06-23,TXN-10594,"Staff Payroll Disbursement",Payroll,"-30,517.13",Completed
+2026-06-23,TXN-10595,"Digital Advertising - Meta & Google",Marketing,"-7,441.36",Completed
+2026-06-23,TXN-10596,"Client Overpayment Refund",Refund,"(2,763.27)",Refunded
+2026-06-24,TXN-10597,"Travel & Business Meals",Operations,"-325.23",Completed
+2026-06-24,TXN-10598,"Legal & Regulatory Retainer",Legal,"-6,056.35",Completed
+2026-06-24,TXN-10599,"Hardware & Laptop Procurement",Equipment,"-4,272.22",Completed
+2026-06-24,TXN-10600,"Acme Corp Enterprise Retainer",Revenue,"8,274.25",Completed
+2026-06-25,TXN-10601,"Global Logistics Wire Payout",Revenue,"74,702.05",Completed
+2026-06-25,TXN-10602,"Stripe Merchant Settlement",Revenue,"27,215.77",Completed
+2026-06-25,TXN-10603,"Apex Advisory Consulting Fee",Revenue,"14,320.31",Completed
+2026-06-26,TXN-10604,"SaaS Subscription Revenue",Revenue,"9,003.17",Completed
+2026-06-26,TXN-10605,"AWS Cloud Infrastructure",Hosting,"-4,846.96",Completed
+2026-06-26,TXN-10606,"Google Workspace & Cloud",Software,"-485.91",Completed
+2026-06-27,TXN-10607,"Slack & Figma Tooling",Software,"-1,786.49",Completed
+2026-06-27,TXN-10608,"WeWork Office Space Rent",Facilities,"-5,987.51",Completed
+2026-06-27,TXN-10609,"Staff Payroll Disbursement",Payroll,"-31,666.46",Completed
+2026-06-27,TXN-10610,"Digital Advertising - Meta & Google",Marketing,"-11,970.09",Completed
+2026-06-28,TXN-10611,"Client Overpayment Refund",Refund,"-1,200.35",Refunded
+2026-06-28,TXN-10612,"Travel & Business Meals",Operations,"-662.27",Completed
+2026-06-28,TXN-10613,"Legal & Regulatory Retainer",Legal,"-7,289.50",Completed
+2026-06-29,TXN-10614,"Hardware & Laptop Procurement",Equipment,"-1,784.65",Completed
+2026-06-29,TXN-10615,"Acme Corp Enterprise Retainer",Revenue,"37,231.90",Completed
+2026-06-29,TXN-10616,"Global Logistics Wire Payout",Revenue,"76,704.95",Completed
+2026-06-29,TXN-10617,"Stripe Merchant Settlement",Revenue,"3,257.65",Completed
+2026-06-30,TXN-10618,"Apex Advisory Consulting Fee",Revenue,"55,266.62",Completed
+2026-06-30,TXN-10619,"SaaS Subscription Revenue",Revenue,"7,468.93",Completed
+2026-06-30,TXN-10620,"AWS Cloud Infrastructure",Hosting,"-2,096.58",Completed
+2026-07-01,TXN-10621,"Google Workspace & Cloud",Software,"-1,173.25",Completed
+2026-07-01,TXN-10622,"Slack & Figma Tooling",Software,"-1,208.38",Completed
+2026-07-01,TXN-10623,"WeWork Office Space Rent",Facilities,"-5,389.30",Completed
+2026-07-01,TXN-10624,"Staff Payroll Disbursement",Payroll,"-47,991.73",Completed
+2026-07-02,TXN-10625,"Digital Advertising - Meta & Google",Marketing,"-6,060.65",Completed
+2026-07-02,TXN-10626,"Client Overpayment Refund",Refund,"(1,766.84)",Refunded
+2026-07-02,TXN-10627,"Travel & Business Meals",Operations,"-935.73",Completed
+2026-07-03,TXN-10628,"Legal & Regulatory Retainer",Legal,"-3,489.63",Completed
+2026-07-03,TXN-10629,"Hardware & Laptop Procurement",Equipment,"-3,659.22",Completed
+2026-07-03,TXN-10630,"Acme Corp Enterprise Retainer",Revenue,"42,069.03",Completed
+2026-07-04,TXN-10631,"Global Logistics Wire Payout",Revenue,"17,140.35",Completed
+2026-07-04,TXN-10632,"Stripe Merchant Settlement",Revenue,"28,010.16",Completed
+2026-07-04,TXN-10633,"Apex Advisory Consulting Fee",Revenue,"51,238.19",Completed
+2026-07-04,TXN-10634,"SaaS Subscription Revenue",Revenue,"1,696.33",Completed
+2026-07-05,TXN-10635,"AWS Cloud Infrastructure",Hosting,"-6,206.42",Completed
+2026-07-05,TXN-10636,"Google Workspace & Cloud",Software,"-886.96",Completed
+2026-07-05,TXN-10637,"Slack & Figma Tooling",Software,"-729.22",Completed
+2026-07-06,TXN-10638,"WeWork Office Space Rent",Facilities,"-7,968.41",Completed
+2026-07-06,TXN-10639,"Staff Payroll Disbursement",Payroll,"-32,924.98",Completed
+2026-07-06,TXN-10640,"Digital Advertising - Meta & Google",Marketing,"-6,664.05",Completed
+2026-07-06,TXN-10641,"Client Overpayment Refund",Refund,"-2,790.74",Refunded
+2026-07-07,TXN-10642,"Travel & Business Meals",Operations,"-394.95",Completed
+2026-07-07,TXN-10643,"Legal & Regulatory Retainer",Legal,"-5,727.64",Completed
+2026-07-07,TXN-10644,"Hardware & Laptop Procurement",Equipment,"-4,363.12",Completed
+2026-07-08,TXN-10645,"Acme Corp Enterprise Retainer",Revenue,"11,634.55",Completed
+2026-07-08,TXN-10646,"Global Logistics Wire Payout",Revenue,"71,315.35",Completed
+2026-07-08,TXN-10647,"Stripe Merchant Settlement",Revenue,"28,489.46",Completed
+2026-07-08,TXN-10648,"Apex Advisory Consulting Fee",Revenue,"9,931.87",Completed
+2026-07-09,TXN-10649,"SaaS Subscription Revenue",Revenue,"8,723.27",Completed
+2026-07-09,TXN-10650,"AWS Cloud Infrastructure",Hosting,"-5,171.98",Completed
+2026-07-09,TXN-10651,"Google Workspace & Cloud",Software,"-400.56",Completed
+2026-07-10,TXN-10652,"Slack & Figma Tooling",Software,"-1,763.26",Completed
+2026-07-10,TXN-10653,"WeWork Office Space Rent",Facilities,"-6,295.78",Completed
+2026-07-10,TXN-10654,"Staff Payroll Disbursement",Payroll,"-29,197.59",Completed
+2026-07-11,TXN-10655,"Digital Advertising - Meta & Google",Marketing,"-11,999.34",Completed
+2026-07-11,TXN-10656,"Client Overpayment Refund",Refund,"(1,397.10)",Refunded
+2026-07-11,TXN-10657,"Travel & Business Meals",Operations,"-605.50",Completed
+2026-07-11,TXN-10658,"Legal & Regulatory Retainer",Legal,"-7,398.02",Completed
+2026-07-12,TXN-10659,"Hardware & Laptop Procurement",Equipment,"-2,057.27",Completed
+2026-07-12,TXN-10660,"Acme Corp Enterprise Retainer",Revenue,"35,112.78",Completed
+2026-07-12,TXN-10661,"Global Logistics Wire Payout",Revenue,"79,331.81",Completed
+2026-07-13,TXN-10662,"Stripe Merchant Settlement",Revenue,"4,239.49",Completed
+2026-07-13,TXN-10663,"Apex Advisory Consulting Fee",Revenue,"53,263.73",Completed
+2026-07-13,TXN-10664,"SaaS Subscription Revenue",Revenue,"7,925.68",Completed
+2026-07-13,TXN-10665,"AWS Cloud Infrastructure",Hosting,"-1,622.44",Completed
+2026-07-14,TXN-10666,"Google Workspace & Cloud",Software,"-1,149.67",Completed
+2026-07-14,TXN-10667,"Slack & Figma Tooling",Software,"-1,309.84",Completed
+2026-07-14,TXN-10668,"WeWork Office Space Rent",Facilities,"-5,037.07",Completed
+2026-07-15,TXN-10669,"Staff Payroll Disbursement",Payroll,"-47,810.99",Completed
+2026-07-15,TXN-10670,"Digital Advertising - Meta & Google",Marketing,"-6,868.63",Completed
+2026-07-15,TXN-10671,"Client Overpayment Refund",Refund,"-1,588.03",Refunded
+2026-07-15,TXN-10672,"Travel & Business Meals",Operations,"-945.93",Completed
+2026-07-16,TXN-10673,"Legal & Regulatory Retainer",Legal,"-3,932.12",Completed
+2026-07-16,TXN-10674,"Hardware & Laptop Procurement",Equipment,"-3,464.28",Completed
+2026-07-16,TXN-10675,"Acme Corp Enterprise Retainer",Revenue,"43,207.45",Completed
+2026-07-17,TXN-10676,"Global Logistics Wire Payout",Revenue,"23,281.28",Completed
+2026-07-17,TXN-10677,"Stripe Merchant Settlement",Revenue,"26,665.62",Completed
+2026-07-17,TXN-10678,"Apex Advisory Consulting Fee",Revenue,"53,526.64",Completed
+2026-07-18,TXN-10679,"SaaS Subscription Revenue",Revenue,"937.53",Completed
+2026-07-18,TXN-10680,"AWS Cloud Infrastructure",Hosting,"-6,034.31",Completed
+2026-07-18,TXN-10681,"Google Workspace & Cloud",Software,"-947.58",Completed
+2026-07-18,TXN-10682,"Slack & Figma Tooling",Software,"-599.61",Completed
+2026-07-19,TXN-10683,"WeWork Office Space Rent",Facilities,"-7,907.38",Completed
+2026-07-19,TXN-10684,"Staff Payroll Disbursement",Payroll,"-35,204.36",Completed
+2026-07-19,TXN-10685,"Digital Advertising - Meta & Google",Marketing,"-5,846.15",Completed
+2026-07-20,TXN-10686,"Client Overpayment Refund",Refund,"(2,800.00)",Refunded
+2026-07-20,TXN-10687,"Travel & Business Meals",Operations,"-462.42",Completed
+2026-07-20,TXN-10688,"Legal & Regulatory Retainer",Legal,"-5,372.21",Completed
+2026-07-20,TXN-10689,"Hardware & Laptop Procurement",Equipment,"-4,431.34",Completed
+2026-07-21,TXN-10690,"Acme Corp Enterprise Retainer",Revenue,"14,947.30",Completed
+2026-07-21,TXN-10691,"Global Logistics Wire Payout",Revenue,"67,503.52",Completed
+2026-07-21,TXN-10692,"Stripe Merchant Settlement",Revenue,"29,576.87",Completed
+2026-07-22,TXN-10693,"Apex Advisory Consulting Fee",Revenue,"10,470.42",Completed
+2026-07-22,TXN-10694,"SaaS Subscription Revenue",Revenue,"8,384.42",Completed
+2026-07-22,TXN-10695,"AWS Cloud Infrastructure",Hosting,"-5,465.67",Completed
+2026-07-22,TXN-10696,"Google Workspace & Cloud",Software,"-313.41",Completed
+2026-07-23,TXN-10697,"Slack & Figma Tooling",Software,"-1,728.82",Completed
+2026-07-23,TXN-10698,"WeWork Office Space Rent",Facilities,"-6,584.02",Completed
+2026-07-23,TXN-10699,"Staff Payroll Disbursement",Payroll,"-26,626.95",Completed
+2026-07-24,TXN-10700,"Digital Advertising - Meta & Google",Marketing,"-11,949.77",Completed
+2026-07-24,TXN-10701,"Client Overpayment Refund",Refund,"-1,585.62",Refunded
+2026-07-24,TXN-10702,"Travel & Business Meals",Operations,"-544.97",Completed
+2026-07-25,TXN-10703,"Legal & Regulatory Retainer",Legal,"-7,467.84",Completed
+2026-07-25,TXN-10704,"Hardware & Laptop Procurement",Equipment,"-2,323.75",Completed
+2026-07-25,TXN-10705,"Acme Corp Enterprise Retainer",Revenue,"32,777.82",Completed
+2026-07-25,TXN-10706,"Global Logistics Wire Payout",Revenue,"81,476.09",Completed
+2026-07-26,TXN-10707,"Stripe Merchant Settlement",Revenue,"6,724.17",Completed
+2026-07-26,TXN-10708,"Apex Advisory Consulting Fee",Revenue,"50,936.43",Completed
+2026-07-26,TXN-10709,"SaaS Subscription Revenue",Revenue,"8,329.20",Completed
+2026-07-27,TXN-10710,"AWS Cloud Infrastructure",Hosting,"-1,142.41",Completed
+2026-07-27,TXN-10711,"Google Workspace & Cloud",Software,"-1,118.92",Completed
+2026-07-27,TXN-10712,"Slack & Figma Tooling",Software,"-1,403.34",Completed
+2026-07-27,TXN-10713,"WeWork Office Space Rent",Facilities,"-4,673.82",Completed
+2026-07-28,TXN-10714,"Staff Payroll Disbursement",Payroll,"-47,395.08",Completed
+2026-07-28,TXN-10715,"Digital Advertising - Meta & Google",Marketing,"-7,634.55",Completed
+2026-07-28,TXN-10716,"Client Overpayment Refund",Refund,"(1,399.62)",Refunded
+2026-07-29,TXN-10717,"Travel & Business Meals",Operations,"-949.94",Completed
+2026-07-29,TXN-10718,"Legal & Regulatory Retainer",Legal,"-4,360.76",Completed
+2026-07-29,TXN-10719,"Hardware & Laptop Procurement",Equipment,"-3,253.10",Completed
+2026-07-29,TXN-10720,"Acme Corp Enterprise Retainer",Revenue,"44,072.03",Completed
+2026-07-30,TXN-10721,"Global Logistics Wire Payout",Revenue,"29,341.36",Completed
+2026-07-30,TXN-10722,"Stripe Merchant Settlement",Revenue,"25,147.88",Completed
+2026-07-30,TXN-10723,"Apex Advisory Consulting Fee",Revenue,"55,488.78",Completed
+2026-07-31,TXN-10724,"SaaS Subscription Revenue",Revenue,"824.40",Completed
+2026-07-31,TXN-10725,"AWS Cloud Infrastructure",Hosting,"-5,824.68",Completed
+2026-07-31,TXN-10726,"Google Workspace & Cloud",Software,"-1,002.49",Completed
+2026-08-01,TXN-10727,"Slack & Figma Tooling",Software,"-467.13",Completed
+2026-08-01,TXN-10728,"WeWork Office Space Rent",Facilities,"-7,814.76",Completed
+2026-08-01,TXN-10729,"Staff Payroll Disbursement",Payroll,"-37,338.92",Completed
+2026-08-01,TXN-10730,"Digital Advertising - Meta & Google",Marketing,"-4,993.51",Completed
+2026-08-02,TXN-10731,"Client Overpayment Refund",Refund,"-2,790.98",Refunded
+2026-08-02,TXN-10732,"Travel & Business Meals",Operations,"-527.15",Completed
+2026-08-02,TXN-10733,"Legal & Regulatory Retainer",Legal,"-4,992.61",Completed
+2026-08-03,TXN-10734,"Hardware & Laptop Procurement",Equipment,"-4,476.40",Completed
+2026-08-03,TXN-10735,"Acme Corp Enterprise Retainer",Revenue,"18,188.75",Completed
+2026-08-03,TXN-10736,"Global Logistics Wire Payout",Revenue,"63,293.87",Completed
+2026-08-03,TXN-10737,"Stripe Merchant Settlement",Revenue,"30,470.21",Completed
+2026-08-04,TXN-10738,"Apex Advisory Consulting Fee",Revenue,"14,855.01",Completed
+2026-08-04,TXN-10739,"SaaS Subscription Revenue",Revenue,"7,989.07",Completed
+2026-08-04,TXN-10740,"AWS Cloud Infrastructure",Hosting,"-5,725.91",Completed
+2026-08-05,TXN-10741,"Google Workspace & Cloud",Software,"-225.10",Completed
+2026-08-05,TXN-10742,"Slack & Figma Tooling",Software,"-1,683.43",Completed
+2026-08-05,TXN-10743,"WeWork Office Space Rent",Facilities,"-6,850.15",Completed
+2026-08-05,TXN-10744,"Staff Payroll Disbursement",Payroll,"-23,972.98",Completed
+2026-08-06,TXN-10745,"Digital Advertising - Meta & Google",Marketing,"-11,821.71",Completed
+2026-08-06,TXN-10746,"Client Overpayment Refund",Refund,"(1,764.57)",Refunded
+2026-08-06,TXN-10747,"Travel & Business Meals",Operations,"-481.11",Completed
+2026-08-07,TXN-10748,"Legal & Regulatory Retainer",Legal,"-7,498.48",Completed
+2026-08-07,TXN-10749,"Hardware & Laptop Procurement",Equipment,"-2,582.17",Completed
+2026-08-07,TXN-10750,"Acme Corp Enterprise Retainer",Revenue,"30,243.77",Completed
+2026-08-08,TXN-10751,"Global Logistics Wire Payout",Revenue,"83,122.39",Completed
+2026-08-08,TXN-10752,"Stripe Merchant Settlement",Revenue,"9,178.56",Completed
+2026-08-08,TXN-10753,"Apex Advisory Consulting Fee",Revenue,"48,301.38",Completed
+2026-08-08,TXN-10754,"SaaS Subscription Revenue",Revenue,"8,676.60",Completed
+2026-08-09,TXN-10755,"AWS Cloud Infrastructure",Hosting,"-940.08",Completed
+2026-08-09,TXN-10756,"Google Workspace & Cloud",Software,"-1,081.23",Completed
+2026-08-09,TXN-10757,"Slack & Figma Tooling",Software,"-1,488.23",Completed
+2026-08-10,TXN-10758,"WeWork Office Space Rent",Facilities,"-4,302.16",Completed
+2026-08-10,TXN-10759,"Staff Payroll Disbursement",Payroll,"-46,746.99",Completed
+2026-08-10,TXN-10760,"Digital Advertising - Meta & Google",Marketing,"-8,352.92",Completed
+2026-08-10,TXN-10761,"Client Overpayment Refund",Refund,"-1,202.97",Refunded
+2026-08-11,TXN-10762,"Travel & Business Meals",Operations,"-947.70",Completed
+2026-08-11,TXN-10763,"Legal & Regulatory Retainer",Legal,"-4,772.48",Completed
+2026-08-11,TXN-10764,"Hardware & Laptop Procurement",Equipment,"-3,027.22",Completed
+2026-08-12,TXN-10765,"Acme Corp Enterprise Retainer",Revenue,"44,656.56",Completed
+2026-08-12,TXN-10766,"Global Logistics Wire Payout",Revenue,"35,277.15",Completed
+2026-08-12,TXN-10767,"Stripe Merchant Settlement",Revenue,"23,467.81",Completed
+2026-08-12,TXN-10768,"Apex Advisory Consulting Fee",Revenue,"57,110.54",Completed
+2026-08-13,TXN-10769,"SaaS Subscription Revenue",Revenue,"1,584.00",Completed
+2026-08-13,TXN-10770,"AWS Cloud Infrastructure",Hosting,"-5,579.03",Completed
+2026-08-13,TXN-10771,"Google Workspace & Cloud",Software,"-1,051.28",Completed
+2026-08-14,TXN-10772,"Slack & Figma Tooling",Software,"-332.74",Completed
+2026-08-14,TXN-10773,"WeWork Office Space Rent",Facilities,"-7,691.21",Completed
+2026-08-14,TXN-10774,"Staff Payroll Disbursement",Payroll,"-39,313.38",Completed
+2026-08-15,TXN-10775,"Digital Advertising - Meta & Google",Marketing,"-4,112.25",Completed
+2026-08-15,TXN-10776,"Client Overpayment Refund",Refund,"(2,763.75)",Refunded
+2026-08-15,TXN-10777,"Travel & Business Meals",Operations,"-588.67",Completed
+2026-08-15,TXN-10778,"Legal & Regulatory Retainer",Legal,"-4,591.56",Completed
+2026-08-16,TXN-10779,"Hardware & Laptop Procurement",Equipment,"-4,497.98",Completed
+2026-08-16,TXN-10780,"Acme Corp Enterprise Retainer",Revenue,"21,335.68",Completed
+2026-08-16,TXN-10781,"Global Logistics Wire Payout",Revenue,"58,716.57",Completed
+2026-08-17,TXN-10782,"Stripe Merchant Settlement",Revenue,"31,163.08",Completed
+2026-08-17,TXN-10783,"Apex Advisory Consulting Fee",Revenue,"19,190.46",Completed
+2026-08-17,TXN-10784,"SaaS Subscription Revenue",Revenue,"7,540.03",Completed
+2026-08-17,TXN-10785,"AWS Cloud Infrastructure",Hosting,"-5,950.84",Completed
+2026-08-18,TXN-10786,"Google Workspace & Cloud",Software,"-163.76",Completed
+2026-08-18,TXN-10787,"Slack & Figma Tooling",Software,"-1,627.40",Completed
+2026-08-18,TXN-10788,"WeWork Office Space Rent",Facilities,"-7,092.27",Completed
+2026-08-19,TXN-10789,"Staff Payroll Disbursement",Payroll,"-21,254.69",Completed
+2026-08-19,TXN-10790,"Digital Advertising - Meta & Google",Marketing,"-11,616.08",Completed
+2026-08-19,TXN-10791,"Client Overpayment Refund",Refund,"-1,932.67",Refunded
+2026-08-19,TXN-10792,"Travel & Business Meals",Operations,"-414.37",Completed
+2026-08-20,TXN-10793,"Legal & Regulatory Retainer",Legal,"-7,489.71",Completed
+2026-08-20,TXN-10794,"Hardware & Laptop Procurement",Equipment,"-2,830.68",Completed
+2026-08-20,TXN-10795,"Acme Corp Enterprise Retainer",Revenue,"27,528.79",Completed
+2026-08-21,TXN-10796,"Global Logistics Wire Payout",Revenue,"84,258.94",Completed
+2026-08-21,TXN-10797,"Stripe Merchant Settlement",Revenue,"11,585.09",Completed
+2026-08-21,TXN-10798,"Apex Advisory Consulting Fee",Revenue,"45,377.47",Completed
+2026-08-22,TXN-10799,"SaaS Subscription Revenue",Revenue,"8,965.40",Completed
+2026-08-22,TXN-10800,"AWS Cloud Infrastructure",Hosting,"-1,421.57",Completed
+2026-08-22,TXN-10801,"Google Workspace & Cloud",Software,"-1,036.86",Completed
+2026-08-22,TXN-10802,"Slack & Figma Tooling",Software,"-1,563.87",Completed
+2026-08-23,TXN-10803,"WeWork Office Space Rent",Facilities,"-3,924.75",Completed
+2026-08-23,TXN-10804,"Staff Payroll Disbursement",Payroll,"-45,871.35",Completed
+2026-08-23,TXN-10805,"Digital Advertising - Meta & Google",Marketing,"-9,018.59",Completed
+2026-08-24,TXN-10806,"Client Overpayment Refund",Refund,"(999.49)",Refunded
+2026-08-24,TXN-10807,"Travel & Business Meals",Operations,"-939.25",Completed
+2026-08-24,TXN-10808,"Legal & Regulatory Retainer",Legal,"-5,164.33",Completed
+2026-08-24,TXN-10809,"Hardware & Laptop Procurement",Equipment,"-2,788.23",Completed
+2026-08-25,TXN-10810,"Acme Corp Enterprise Retainer",Revenue,"44,956.86",Completed
+2026-08-25,TXN-10811,"Global Logistics Wire Payout",Revenue,"41,046.10",Completed
+2026-08-25,TXN-10812,"Stripe Merchant Settlement",Revenue,"21,637.46",Completed
+2026-08-26,TXN-10813,"Apex Advisory Consulting Fee",Revenue,"58,380.31",Completed
+2026-08-26,TXN-10814,"SaaS Subscription Revenue",Revenue,"2,335.84",Completed
+2026-08-26,TXN-10815,"AWS Cloud Infrastructure",Hosting,"-5,299.14",Completed
+2026-08-26,TXN-10816,"Google Workspace & Cloud",Software,"-1,093.62",Completed
+2026-08-27,TXN-10817,"Slack & Figma Tooling",Software,"-202.61",Completed
+2026-08-27,TXN-10818,"WeWork Office Space Rent",Facilities,"-7,537.62",Completed
+2026-08-27,TXN-10819,"Staff Payroll Disbursement",Payroll,"-41,113.56",Completed
+2026-08-28,TXN-10820,"Digital Advertising - Meta & Google",Marketing,"-3,208.68",Completed
+2026-08-28,TXN-10821,"Client Overpayment Refund",Refund,"-2,718.50",Refunded
+2026-08-28,TXN-10822,"Travel & Business Meals",Operations,"-646.55",Completed
+2026-08-29,TXN-10823,"Legal & Regulatory Retainer",Legal,"-4,171.94",Completed
+2026-08-29,TXN-10824,"Hardware & Laptop Procurement",Equipment,"-4,495.92",Completed
+2026-08-29,TXN-10825,"Acme Corp Enterprise Retainer",Revenue,"24,365.51",Completed
+2026-08-29,TXN-10826,"Global Logistics Wire Payout",Revenue,"53,804.44",Completed
+2026-08-30,TXN-10827,"Stripe Merchant Settlement",Revenue,"31,650.50",Completed
+2026-08-30,TXN-10828,"Apex Advisory Consulting Fee",Revenue,"23,445.71",Completed
+2026-08-30,TXN-10829,"SaaS Subscription Revenue",Revenue,"7,040.54",Completed
+2026-08-31,TXN-10830,"AWS Cloud Infrastructure",Hosting,"-6,138.86",Completed
+2026-08-31,TXN-10831,"Google Workspace & Cloud",Software,"-252.52",Completed
+2026-08-31,TXN-10832,"Slack & Figma Tooling",Software,"-1,561.14",Completed
+2026-08-31,TXN-10833,"WeWork Office Space Rent",Facilities,"-7,308.65",Completed
+2026-09-01,TXN-10834,"Staff Payroll Disbursement",Payroll,"-18,491.58",Completed
+2026-09-01,TXN-10835,"Digital Advertising - Meta & Google",Marketing,"-11,334.37",Completed
+2026-09-01,TXN-10836,"Client Overpayment Refund",Refund,"(2,088.70)",Refunded
+2026-09-02,TXN-10837,"Travel & Business Meals",Operations,"-345.23",Completed
+2026-09-02,TXN-10838,"Legal & Regulatory Retainer",Legal,"-7,441.59",Completed
+2026-09-02,TXN-10839,"Hardware & Laptop Procurement",Equipment,"-3,067.51",Completed
+2026-09-02,TXN-10840,"Acme Corp Enterprise Retainer",Revenue,"24,652.34",Completed
+2026-09-03,TXN-10841,"Global Logistics Wire Payout",Revenue,"84,877.57",Completed
+2026-09-03,TXN-10842,"Stripe Merchant Settlement",Revenue,"13,926.51",Completed
+2026-09-03,TXN-10843,"Apex Advisory Consulting Fee",Revenue,"42,185.66",Completed
+2026-09-04,TXN-10844,"SaaS Subscription Revenue",Revenue,"9,193.52",Completed
+2026-09-04,TXN-10845,"AWS Cloud Infrastructure",Hosting,"-1,898.60",Completed
+2026-09-04,TXN-10846,"Google Workspace & Cloud",Software,"-986.13",Completed
+2026-09-05,TXN-10847,"Slack & Figma Tooling",Software,"-1,629.75",Completed
+2026-09-05,TXN-10848,"WeWork Office Space Rent",Facilities,"-3,544.30",Completed
+2026-09-05,TXN-10849,"Staff Payroll Disbursement",Payroll,"-44,774.44",Completed
+2026-09-05,TXN-10850,"Digital Advertising - Meta & Google",Marketing,"-9,626.78",Completed
+2026-09-06,TXN-10851,"Client Overpayment Refund",Refund,"-790.64",Refunded
+2026-09-06,TXN-10852,"Travel & Business Meals",Operations,"-924.64",Completed
+2026-09-06,TXN-10853,"Legal & Regulatory Retainer",Legal,"-5,533.50",Completed
+2026-09-07,TXN-10854,"Hardware & Laptop Procurement",Equipment,"-2,537.87",Completed
+2026-09-07,TXN-10855,"Acme Corp Enterprise Retainer",Revenue,"44,970.76",Completed
+2026-09-07,TXN-10856,"Global Logistics Wire Payout",Revenue,"46,606.86",Completed
+2026-09-07,TXN-10857,"Stripe Merchant Settlement",Revenue,"19,669.94",Completed
+2026-09-08,TXN-10858,"Apex Advisory Consulting Fee",Revenue,"59,288.98",Completed
+2026-09-08,TXN-10859,"SaaS Subscription Revenue",Revenue,"3,074.52",Completed
+2026-09-08,TXN-10860,"AWS Cloud Infrastructure",Hosting,"-4,987.00",Completed
+2026-09-09,TXN-10861,"Google Workspace & Cloud",Software,"-1,129.19",Completed
+2026-09-09,TXN-10862,"Slack & Figma Tooling",Software,"-337.93",Completed
+2026-09-09,TXN-10863,"WeWork Office Space Rent",Facilities,"-7,355.09",Completed
+2026-09-09,TXN-10864,"Staff Payroll Disbursement",Payroll,"-42,726.58",Completed
+2026-09-10,TXN-10865,"Digital Advertising - Meta & Google",Marketing,"-2,289.28",Completed
+2026-09-10,TXN-10866,"Client Overpayment Refund",Refund,"(2,655.56)",Refunded
+2026-09-10,TXN-10867,"Travel & Business Meals",Operations,"-700.36",Completed
+2026-09-11,TXN-10868,"Legal & Regulatory Retainer",Legal,"-3,736.75",Completed
+2026-09-11,TXN-10869,"Hardware & Laptop Procurement",Equipment,"-4,470.24",Completed
+2026-09-11,TXN-10870,"Acme Corp Enterprise Retainer",Revenue,"27,256.55",Completed
+2026-09-12,TXN-10871,"Global Logistics Wire Payout",Revenue,"48,592.68",Completed
+2026-09-12,TXN-10872,"Stripe Merchant Settlement",Revenue,"31,928.99",Completed
+2026-09-12,TXN-10873,"Apex Advisory Consulting Fee",Revenue,"27,590.25",Completed
+2026-09-12,TXN-10874,"SaaS Subscription Revenue",Revenue,"6,494.17",Completed
+2026-09-13,TXN-10875,"AWS Cloud Infrastructure",Hosting,"-6,288.61",Completed
+2026-09-13,TXN-10876,"Google Workspace & Cloud",Software,"-340.54",Completed
+2026-09-13,TXN-10877,"Slack & Figma Tooling",Software,"-1,485.12",Completed
+2026-09-14,TXN-10878,"WeWork Office Space Rent",Facilities,"-7,497.72",Completed
+2026-09-14,TXN-10879,"Staff Payroll Disbursement",Payroll,"-15,703.44",Completed
+2026-09-14,TXN-10880,"Digital Advertising - Meta & Google",Marketing,"-10,978.58",Completed
+2026-09-14,TXN-10881,"Client Overpayment Refund",Refund,"-2,231.56",Refunded
+2026-09-15,TXN-10882,"Travel & Business Meals",Operations,"-274.20",Completed
+2026-09-15,TXN-10883,"Legal & Regulatory Retainer",Legal,"-7,354.47",Completed
+2026-09-15,TXN-10884,"Hardware & Laptop Procurement",Equipment,"-3,290.95",Completed
+2026-09-16,TXN-10885,"Acme Corp Enterprise Retainer",Revenue,"21,635.02",Completed
+2026-09-16,TXN-10886,"Global Logistics Wire Payout",Revenue,"84,973.86",Completed
+2026-09-16,TXN-10887,"Stripe Merchant Settlement",Revenue,"16,186.02",Completed
+2026-09-16,TXN-10888,"Apex Advisory Consulting Fee",Revenue,"38,748.83",Completed
+2026-09-17,TXN-10889,"SaaS Subscription Revenue",Revenue,"9,359.34",Completed
+2026-09-17,TXN-10890,"AWS Cloud Infrastructure",Hosting,"-2,367.75",Completed
+2026-09-17,TXN-10891,"Google Workspace & Cloud",Software,"-929.41",Completed
+2026-09-18,TXN-10892,"Slack & Figma Tooling",Software,"-1,685.37",Completed
+2026-09-18,TXN-10893,"WeWork Office Space Rent",Facilities,"-3,836.47",Completed
+2026-09-18,TXN-10894,"Staff Payroll Disbursement",Payroll,"-43,464.13",Completed
+2026-09-19,TXN-10895,"Unsettled Foreign Exchange Transfer",Forex,N/A,Flagged
+2026-09-19,TXN-10896,"Client Overpayment Refund",Refund,"(577.92)",Refunded
+2026-09-19,TXN-10897,"Travel & Business Meals",Operations,"-903.98",Completed
+2026-09-19,TXN-10898,"Legal & Regulatory Retainer",Legal,"-5,877.34",Completed
+2026-09-20,TXN-10899,"Hardware & Laptop Procurement",Equipment,"-2,277.91",Completed
+2026-09-20,TXN-10900,"Acme Corp Enterprise Retainer",Revenue,"44,698.18",Completed
+2026-09-20,TXN-10901,"Global Logistics Wire Payout",Revenue,"51,919.58",Completed
+2026-09-21,TXN-10902,"Stripe Merchant Settlement",Revenue,"17,579.36",Completed
+2026-09-21,TXN-10903,"Apex Advisory Consulting Fee",Revenue,"59,830.05",Completed
+2026-09-21,TXN-10904,"SaaS Subscription Revenue",Revenue,"3,794.74",Completed
+2026-09-21,TXN-10905,"AWS Cloud Infrastructure",Hosting,"-4,644.84",Completed
+2026-09-22,TXN-10906,"Google Workspace & Cloud",Software,"-1,157.74",Completed
+2026-09-22,TXN-10907,"Slack & Figma Tooling",Software,"-472.27",Completed
+2026-09-22,TXN-10908,"WeWork Office Space Rent",Facilities,"-7,144.93",Completed
+2026-09-23,TXN-10909,"Staff Payroll Disbursement",Payroll,"-44,140.88",Completed
+2026-09-23,TXN-10910,"Digital Advertising - Meta & Google",Marketing,"-1,360.65",Completed
+2026-09-23,TXN-10911,"Client Overpayment Refund",Refund,"-2,575.38",Refunded
+2026-09-23,TXN-10912,"Travel & Business Meals",Operations,"-749.73",Completed
+2026-09-24,TXN-10913,"Legal & Regulatory Retainer",Legal,"-3,289.12",Completed
+2026-09-24,TXN-10914,"Hardware & Laptop Procurement",Equipment,"-4,421.12",Completed
+2026-09-24,TXN-10915,"Acme Corp Enterprise Retainer",Revenue,"29,988.07",Completed
+2026-09-25,TXN-10916,"Global Logistics Wire Payout",Revenue,"43,118.64",Completed
+2026-09-25,TXN-10917,"Stripe Merchant Settlement",Revenue,"31,996.55",Completed
+2026-09-25,TXN-10918,"Apex Advisory Consulting Fee",Revenue,"31,594.38",Completed
+2026-09-26,TXN-10919,"SaaS Subscription Revenue",Revenue,"5,904.84",Completed
+2026-09-26,TXN-10920,"AWS Cloud Infrastructure",Hosting,"-6,399.03",Completed
+2026-09-26,TXN-10921,"Google Workspace & Cloud",Software,"-427.19",Completed
+2026-09-26,TXN-10922,"Slack & Figma Tooling",Software,"-1,399.90",Completed
+2026-09-27,TXN-10923,"WeWork Office Space Rent",Facilities,"-7,658.15",Completed
+2026-09-27,TXN-10924,"Staff Payroll Disbursement",Payroll,"-17,089.75",Completed
+2026-09-27,TXN-10925,"Digital Advertising - Meta & Google",Marketing,"-10,551.28",Completed
+2026-09-28,TXN-10926,"Client Overpayment Refund",Refund,"(2,360.21)",Refunded
+2026-09-28,TXN-10927,"Travel & Business Meals",Operations,"-201.77",Completed
+2026-09-28,TXN-10928,"Legal & Regulatory Retainer",Legal,"-7,228.97",Completed
+2026-09-28,TXN-10929,"Hardware & Laptop Procurement",Equipment,"-3,499.40",Completed
+2026-09-29,TXN-10930,"Acme Corp Enterprise Retainer",Revenue,"18,498.48",Completed
+2026-09-29,TXN-10931,"Global Logistics Wire Payout",Revenue,"84,547.12",Completed
+2026-09-29,TXN-10932,"Stripe Merchant Settlement",Revenue,"18,347.44",Completed
+2026-09-30,TXN-10933,"Apex Advisory Consulting Fee",Revenue,"35,091.61",Completed
+2026-09-30,TXN-10934,"SaaS Subscription Revenue",Revenue,"9,461.65",Completed
+2026-09-30,TXN-10935,"AWS Cloud Infrastructure",Hosting,"-2,825.67",Completed
+2026-09-30,TXN-10936,"Google Workspace & Cloud",Software,"-867.11",Completed
+2026-10-01,TXN-10937,"Slack & Figma Tooling",Software,"-1,730.35",Completed
+2026-10-01,TXN-10938,"WeWork Office Space Rent",Facilities,"-4,214.83",Completed
+2026-10-01,TXN-10939,"Staff Payroll Disbursement",Payroll,"-41,949.80",Completed
+2026-10-02,TXN-10940,"Digital Advertising - Meta & Google",Marketing,"-10,653.76",Completed
+2026-10-02,TXN-10941,"Client Overpayment Refund",Refund,"-362.84",Refunded
+2026-10-02,TXN-10942,"Travel & Business Meals",Operations,"-877.41",Completed
+2026-10-03,TXN-10943,"Legal & Regulatory Retainer",Legal,"-6,193.40",Completed
+2026-10-03,TXN-10944,"Hardware & Laptop Procurement",Equipment,"-2,010.23",Completed
+2026-10-03,TXN-10945,"Acme Corp Enterprise Retainer",Revenue,"44,141.07",Completed
+2026-10-03,TXN-10946,"Global Logistics Wire Payout",Revenue,"56,946.18",Completed
+2026-10-04,TXN-10947,"Stripe Merchant Settlement",Revenue,"15,380.69",Completed
+2026-10-04,TXN-10948,"Apex Advisory Consulting Fee",Revenue,"59,999.62",Completed
+2026-10-04,TXN-10949,"SaaS Subscription Revenue",Revenue,"4,491.35",Completed
+2026-10-05,TXN-10950,"AWS Cloud Infrastructure",Hosting,"-4,275.13",Completed
+2026-10-05,TXN-10951,"Google Workspace & Cloud",Software,"-1,179.07",Completed
+2026-10-05,TXN-10952,"Slack & Figma Tooling",Software,"-604.66",Completed
+2026-10-05,TXN-10953,"WeWork Office Space Rent",Facilities,"-6,908.65",Completed
+2026-10-06,TXN-10954,"Staff Payroll Disbursement",Payroll,"-45,346.30",Completed
+2026-10-06,TXN-10955,"Digital Advertising - Meta & Google",Marketing,"-1,570.58",Completed
+2026-10-06,TXN-10956,"Client Overpayment Refund",Refund,"(2,478.53)",Refunded
+2026-10-07,TXN-10957,"Travel & Business Meals",Operations,"-794.30",Completed
+2026-10-07,TXN-10958,"Legal & Regulatory Retainer",Legal,"-2,832.24",Completed
+2026-10-07,TXN-10959,"Hardware & Laptop Procurement",Equipment,"-4,348.91",Completed
+2026-10-07,TXN-10960,"Acme Corp Enterprise Retainer",Revenue,"32,540.48",Completed
+2026-10-08,TXN-10961,"Global Logistics Wire Payout",Revenue,"37,421.56",Completed
+2026-10-08,TXN-10962,"Stripe Merchant Settlement",Revenue,"31,852.70",Completed
+2026-10-08,TXN-10963,"Apex Advisory Consulting Fee",Revenue,"35,429.40",Completed
+2026-10-09,TXN-10964,"SaaS Subscription Revenue",Revenue,"5,276.77",Completed
+2026-10-09,TXN-10965,"AWS Cloud Infrastructure",Hosting,"-6,469.31",Completed
+2026-10-09,TXN-10966,"Google Workspace & Cloud",Software,"-511.86",Completed
+2026-10-10,TXN-10967,"Slack & Figma Tooling",Software,"-1,306.07",Completed
+2026-10-10,TXN-10968,"WeWork Office Space Rent",Facilities,"-7,788.76",Completed
+2026-10-10,TXN-10969,"Staff Payroll Disbursement",Payroll,"-19,867.95",Completed
+2026-10-10,TXN-10970,"Digital Advertising - Meta & Google",Marketing,"-10,055.51",Completed
+2026-10-11,TXN-10971,"Client Overpayment Refund",Refund,"-2,473.74",Refunded
+2026-10-11,TXN-10972,"Travel & Business Meals",Operations,"-128.47",Completed
+2026-10-11,TXN-10973,"Legal & Regulatory Retainer",Legal,"-7,065.99",Completed
+2026-10-12,TXN-10974,"Hardware & Laptop Procurement",Equipment,"-3,691.37",Completed
+2026-10-12,TXN-10975,"Acme Corp Enterprise Retainer",Revenue,"15,265.19",Completed
+2026-10-12,TXN-10976,"Global Logistics Wire Payout",Revenue,"83,600.39",Completed
+2026-10-12,TXN-10977,"Stripe Merchant Settlement",Revenue,"20,395.28",Completed
+2026-10-13,TXN-10978,"Apex Advisory Consulting Fee",Revenue,"31,240.21",Completed
+2026-10-13,TXN-10979,"SaaS Subscription Revenue",Revenue,"9,499.74",Completed
+2026-10-13,TXN-10980,"AWS Cloud Infrastructure",Hosting,"-3,269.07",Completed
+2026-10-14,TXN-10981,"Google Workspace & Cloud",Software,"-799.66",Completed
+2026-10-14,TXN-10982,"Slack & Figma Tooling",Software,"-1,764.36",Completed
+2026-10-14,TXN-10983,"WeWork Office Space Rent",Facilities,"-4,588.07",Completed
+2026-10-14,TXN-10984,"Staff Payroll Disbursement",Payroll,"-40,242.31",Completed
+2026-10-15,TXN-10985,"Digital Advertising - Meta & Google",Marketing,"-11,065.18",Completed
+2026-10-15,TXN-10986,"Client Overpayment Refund",Refund,"(353.04)",Refunded
+2026-10-15,TXN-10987,"Travel & Business Meals",Operations,"-845.12",Completed
+2026-10-16,TXN-10988,"Legal & Regulatory Retainer",Legal,"-6,479.39",Completed
+2026-10-16,TXN-10989,"Hardware & Laptop Procurement",Equipment,"-1,736.74",Completed
+2026-10-16,TXN-10990,"Acme Corp Enterprise Retainer",Revenue,"43,303.42",Completed
+2026-10-17,TXN-10991,"Global Logistics Wire Payout",Revenue,"61,650.63",Completed
+2026-10-17,TXN-10992,"Stripe Merchant Settlement",Revenue,"13,089.71",Completed
+2026-10-17,TXN-10993,"Apex Advisory Consulting Fee",Revenue,"59,796.49",Completed
+2026-10-17,TXN-10994,"SaaS Subscription Revenue",Revenue,"5,159.35",Completed
+2026-10-18,TXN-10995,"AWS Cloud Infrastructure",Hosting,"-3,880.51",Completed
+2026-10-18,TXN-10996,"Google Workspace & Cloud",Software,"-1,193.03",Completed
+2026-10-18,TXN-10997,"Slack & Figma Tooling",Software,"-734.14",Completed
+2026-10-19,TXN-10998,"WeWork Office Space Rent",Facilities,"-6,647.93",Completed
+2026-10-19,TXN-10999,"Staff Payroll Disbursement",Payroll,"-46,334.23",Completed
+2026-10-19,TXN-11000,"Digital Advertising - Meta & Google",Marketing,"-2,497.71",Completed

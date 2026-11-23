@@ -1,0 +1,39 @@
+{
+  "name": "Audit Recurring Transaction Multiplicity ($62,000.00 Exact Match)",
+  "description": "Verifies that recurring transactions (five $10,000 and four $3,000 transactions) are not collapsed into $13,000, asserting full ledger parity.",
+  "steps": [
+    {
+      "action": "navigate",
+      "url": "/"
+    },
+    {
+      "action": "waitForElement",
+      "selector": "input[type='file']",
+      "timeout": 5000
+    },
+    {
+      "action": "uploadFile",
+      "selector": "input[type='file']",
+      "filePath": "duplicate_audit_test.csv"
+    },
+    {
+      "action": "waitForElement",
+      "selector": "[data-testid='total-amount']",
+      "timeout": 10000
+    },
+    {
+      "action": "assertTextContains",
+      "selector": "[data-testid='total-amount']",
+      "expected": "62,000.00"
+    },
+    {
+      "action": "assertTextContains",
+      "selector": "[data-testid='valid-count']",
+      "expected": "9"
+    },
+    {
+      "action": "assertElementVisible",
+      "selector": "[data-testid='kane-verified-badge']"
+    }
+  ]
+}

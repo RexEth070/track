@@ -1,0 +1,13 @@
+Transaction Date,Transaction ID,Description,Category,Amount,Status
+2026-11-01,TXN-101,SaaS Subscription Inflow,Revenue,"1,000.00",Completed
+2026-11-02,TXN-102,Enterprise Client License A,Revenue,"13,000.00",Completed
+2026-11-03,TXN-103,SaaS Subscription Inflow,Revenue,"1,000.00",Completed
+2026-11-04,TXN-104,Enterprise Client License B,Revenue,"13,000.00",Completed
+2026-11-05,TXN-105,Enterprise Client License C,Revenue,"13,000.00",Completed
+2026-11-06,TXN-106,SaaS Subscription Inflow,Revenue,"1,000.00",Completed
+2026-11-07,TXN-107,Enterprise Client License D,Revenue,"13,000.00",Completed
+2026-11-08,TXN-108,Enterprise Client License E,Revenue,"13,000.00",Completed
+2026-11-09,TXN-109,SaaS Subscription Inflow,Revenue,"1,000.00",Completed
+2026-11-10,TXN-110,Enterprise Client License F,Revenue,"13,000.00",Completed
+2026-11-11,TXN-111,Enterprise Client License G,Revenue,"13,000.00",Completed
+2026-11-12,TXN-112,Enterprise Client License H,Revenue,"13,000.00",Completed

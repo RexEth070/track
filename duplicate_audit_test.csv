@@ -1,0 +1,10 @@
+Transaction Date,Transaction ID,Description,Category,Amount,Status
+2026-11-01,TXN-90001,Design Retainer Batch A,Revenue,"10,000.00",Completed
+2026-11-02,TXN-90002,Software License Inflow,Revenue,"3,000.00",Completed
+2026-11-03,TXN-90003,Design Retainer Batch B,Revenue,"10,000.00",Completed
+2026-11-04,TXN-90004,Software License Inflow,Revenue,"3,000.00",Completed
+2026-11-05,TXN-90005,Design Retainer Batch C,Revenue,"10,000.00",Completed
+2026-11-06,TXN-90006,Software License Inflow,Revenue,"3,000.00",Completed
+2026-11-07,TXN-90007,Design Retainer Batch D,Revenue,"10,000.00",Completed
+2026-11-08,TXN-90008,Software License Inflow,Revenue,"3,000.00",Completed
+2026-11-09,TXN-90009,Design Retainer Batch E,Revenue,"10,000.00",Completed

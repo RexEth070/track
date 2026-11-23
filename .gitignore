@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# kane cli local session outputs
+.testmuai/
+output-kane_integrity/
