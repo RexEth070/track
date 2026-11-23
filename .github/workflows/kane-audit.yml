@@ -33,12 +33,15 @@ jobs:
           npm run kane:audit
           node scripts/run-audit-simulator.js company_test_1k_13k.csv
 
-      - name: Run Kane CLI Cloud Browser Verification (when credentials are configured)
-        if: ${{ secrets.LT_USERNAME != '' && secrets.LT_ACCESS_KEY != '' }}
+      - name: Run Kane CLI Cloud Verification (if credentials configured)
         env:
           LT_USERNAME: ${{ secrets.LT_USERNAME }}
           LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
         run: |
-          npm run start &
-          npx wait-on http://localhost:3000 --timeout 60000
-          npx kane-cli testmd run kane_integrity_test.md --url http://localhost:3000 --headless --agent --username "$LT_USERNAME" --access-key "$LT_ACCESS_KEY"
+          if [ -n "$LT_USERNAME" ] && [ -n "$LT_ACCESS_KEY" ]; then
+            npm run start &
+            npx wait-on http://localhost:3000 --timeout 60000
+            npx kane-cli testmd run kane_integrity_test.md --url http://localhost:3000 --headless --agent --username "$LT_USERNAME" --access-key "$LT_ACCESS_KEY"
+          else
+            echo "Kane CLI cloud credentials not set in repo secrets; deterministic cross-agent audit passed."
+          fi
