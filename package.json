@@ -9,7 +9,9 @@
     "lint": "eslint",
     "kane:test": "kane-cli testmd run kane_integrity_test.md",
     "kane:run": "kane-cli run \"Open http://localhost:3000, upload duplicate_audit_test.csv, assert total is $62,000.00 and count is 9\"",
-    "kane:audit": "node scripts/run-audit-simulator.js"
+    "kane:audit": "node scripts/run-audit-simulator.js",
+    "kane": "node scripts/run-audit-simulator.js",
+    "audit": "node scripts/run-audit-simulator.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",

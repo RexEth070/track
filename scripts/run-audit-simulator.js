@@ -14,7 +14,8 @@ const Papa = require('papaparse');
 const PENDING_REGEX = /\b(pending|processing|in[_\s-]?progress|awaiting|on[_\s-]?hold|unsettled)\b/i;
 const REVERSED_REGEX = /\b(reversed|reversal|chargeback|refunded|void|voided|cancelled|canceled|failed|declined)\b/i;
 
-const targetArg = process.argv[2] || 'kane_full_audit_test.csv';
+const rawArg = process.argv[2];
+const targetArg = (rawArg && rawArg !== 'audit' && !rawArg.startsWith('--')) ? rawArg : 'kane_full_audit_test.csv';
 const testFilePath = path.resolve(process.cwd(), targetArg);
 
 console.log('\x1b[36m%s\x1b[0m', '═══════════════════════════════════════════════════════════════════');
